@@ -129,7 +129,7 @@ Only assign a license if it is available and permitted in your training tenant. 
 
 ## Evidence to capture
 
-Save screenshots in this folder's `screenshots/` directory. Suggested evidence:
+Saved screenshots in this folder's `screenshots/` directory. Suggested evidence:
 1. Test user profile (redacted).
 2. Before-role application creation restriction.
 3. Assigned role and assignment type.
