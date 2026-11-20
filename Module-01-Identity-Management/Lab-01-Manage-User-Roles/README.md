@@ -1,7 +1,7 @@
 # Lab 01 – Manage User Roles
 
 **Module:** 01 – Implement an Identity Management Solution  
-**Status:** Planned  
+**Status:** Completed  
 **Estimated time in Microsoft instructions:** 30 minutes (actual time may vary)
 
 ## Scenario
@@ -116,15 +116,16 @@ Only assign a license if it is available and permitted in your training tenant. 
 
 ## Validation checklist
 
-- [ ] Test user created successfully.
-- [ ] Baseline application permissions observed before role assignment.
-- [ ] Application Administrator role assigned and visible.
-- [ ] Application creation control becomes available to the test user.
-- [ ] Role removed and assignment no longer present.
-- [ ] Bulk CSV user creation tested and verified.
-- [ ] Microsoft Graph user creation tested and verified.
-- [ ] Test user deletion and restoration verified.
-- [ ] License assignment and usage location verified, if the required license is available.
+- [x] Test user created successfully (Lami was used instead of the Microsoft sample identity).
+- [x] Baseline application permissions observed before role assignment.
+- [x] Application Administrator role assigned and visible.
+- [x] Application creation control became available to the test user.
+- [x] Role removed and the original restriction returned.
+- [x] Bulk CSV user creation tested and verified; the UPN-domain issue was corrected and the successful operation was checked in audit logs.
+- [x] Microsoft Graph PowerShell environment and SDK verified; authenticated, queried users, created Samuel Adeyemi, updated profile attributes, and verified the resulting values.
+- [x] Directory-synchronized user update limitation investigated and documented. The attempted update was rejected because the attributes are mastered on-premises; no change was made to those accounts.
+- [x] Test user deletion and restoration verified (Lami returned to All users).
+- [x] Licensing workflow reviewed using Lami and tenant licence information. The exact sample-user assignment could not be reproduced because the sample user was not present; do not represent this as a confirmed licence assignment.
 
 ## Evidence to capture
 
@@ -141,8 +142,15 @@ Save screenshots in this folder's `screenshots/` directory. Suggested evidence:
 
 ## Findings and troubleshooting
 
-_To be completed during the hands-on session. Record actual errors, root causes, resolutions, portal differences, role propagation delays, and licensing limitations._
+- **Test identity adaptation:** Lami was used instead of the Microsoft sample identity. The user-creation, sign-in, role assignment, permission validation, role removal, deletion, and restoration workflows were completed with this test account.
+- **Bulk CSV provisioning:** The first import attempt encountered an invalid UPN domain. After correcting the domain, the bulk operation completed successfully and the Add user events were verified in audit logs.
+- **Microsoft Graph PowerShell:** The Graph SDK was installed and verified, delegated authentication was completed, and user query/create/update operations were performed. A profile attribute was initially blank and was corrected with an additional Graph update; the final department and job-title values were verified.
+- **Hybrid identity source of authority:** An optional attempt to update directory-synchronized users returned an error because the relevant attributes are mastered on-premises. This was recorded as a limitation; the synchronized users were not modified.
+- **Licensing adaptation:** The tenant's licence inventory and relevant licence-selection workflow were reviewed using Lami. The exact sample user in the Microsoft instructions was not available in this tenant, so the original sample-specific assignment could not be reproduced or claimed as verified.
+- **Evidence:** The screenshot index in [screenshots/README.md](./screenshots/README.md) explains the action, visible result, and significance of each screenshot. Sensitive password material was excluded.
 
 ## Completion
 
-This lab remains **Planned** until all applicable tasks have been performed, validated, and documented. Update the root [progress tracker](../../../PROGRESS.md) only after validation.
+**Status: Completed.** All work intended for this lab session has been performed and documented, and the applicable outcomes were validated with screenshots. Where the Microsoft sample identity or tenant licensing inventory was unavailable, the workflow was adapted and the limitation is explicitly documented rather than presented as a successful sample-specific result.
+
+See the [screenshot evidence guide](./screenshots/README.md) for an explanation of each evidence file and the [root progress tracker](../../../PROGRESS.md) for portfolio status.
