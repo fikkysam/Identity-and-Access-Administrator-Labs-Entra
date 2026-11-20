@@ -19,7 +19,7 @@ Create a tenant subdomain, update tenant properties, identify tenant location an
 - Opened **Entra ID → Domain names** and initiated the custom-domain workflow.
 - Used the Microsoft 365 admin center because management of `.onmicrosoft.com` domains is restricted in the Entra admin center.
 - Added **`sales.fikayo.onmicrosoft.com`**.
-- Stopped at the DNS-record stage and did not configure DNS, as directed by the lab.
+- Stopped at the DNS-record stage and did not configure DNS
 
 **Observed result:** The new subdomain appears in the Microsoft 365 Domains list with **Incomplete setup**. This is expected for this exercise because DNS configuration and verification were intentionally skipped. The tenant's default domain remained **Healthy**.
 
