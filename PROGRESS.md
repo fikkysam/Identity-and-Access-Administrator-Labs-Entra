@@ -1,13 +1,13 @@
 # Lab Progress Tracker
 
-**Overall status:** 0 / 28 completed  
+**Overall status:** 1 / 28 completed  
 **Status definitions:** Planned → In Progress → Implemented → Validated → Completed
 
 A lab is counted as completed only after the configuration has been tested and its evidence and findings documented.
 
 | Lab | Title | Status |
 |---:|---|---|
-| 01 | Manage User Roles | Planned |
+| 01 | Manage User Roles | Completed |
 | 02 | Working with Tenant Properties | Planned |
 | 03 | Assigning Licenses Using Group Membership | Planned |
 | 04 | Configure External Collaboration Settings | Planned |
