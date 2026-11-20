@@ -34,7 +34,17 @@ The first lab has been worked through using dedicated test identities in the non
 
 **Progress note:** Exercises 1–5 have been validated with screenshots. Exercise 6 is documented as an environment-specific adaptation rather than claiming the original sample-user workflow was completed exactly.
 
-**Security note:** Screenshots and CSV evidence must be reviewed and redacted before public publication. Do not upload source CSV files containing initial passwords, screenshots showing passwords, tokens, or other secrets.
+## Lab 02 progress — Working with Tenant Properties
+
+Completed the tenant-properties lab in the non-production Microsoft 365 / Microsoft Entra tenant.
+
+- Created the `sales.fikayo.onmicrosoft.com` subdomain through Microsoft 365 admin center. DNS configuration was intentionally skipped, so the domain remains listed as **Incomplete setup**.
+- Changed the tenant display name to **Contoso Marketing** and reviewed the technical contact.
+- Reviewed the tenant country/region (**Canada**), the displayed primary-copy data location (**United States datacenters**), and located and recorded the Tenant ID.
+- Configured Lami as the global privacy contact and added the Contoso sample privacy statement URL.
+- Verified that the organizational privacy statement opened from **My Account → Data and Privacy → Organization's notice**.
+
+See the [Lab 02 implementation record and evidence index](./Module-01-Identity-Management/Lab-02-working-with-tenant-properties/README.md). The redacted screenshot ZIP is prepared for extraction into that lab's `screenshots/` folder.
 
 ## Documentation
 - [Architecture](./ARCHITECTURE.md)
