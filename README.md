@@ -19,6 +19,23 @@ A practical portfolio of 28 Microsoft SC-300-aligned labs covering identity mana
 | [03 – Application Access](./Module-03-Application-Access/) | Defender for Cloud Apps, app registration, application access and consent | 17–21 |
 | [04 – Identity Governance](./Module-04-Identity-Governance/) | Entitlement management, Terms of Use, lifecycle, access reviews, PIM, Sentinel, Secure Score | 22–28 |
 
+## Lab 01 progress — Manage User Roles
+
+The first lab has been worked through using dedicated test identities in the non-production tenant.
+
+| Exercise | Work completed | Evidence / notes |
+|---|---|---|
+| 1. Create a user and test baseline permissions | Created the Lami test identity, completed first sign-in, and verified standard-user restrictions on application creation. | Screenshots captured. |
+| 2. Assign Application Administrator | Assigned the role and verified the application-creation option became available. | Screenshots captured. |
+| 3. Remove the role | Removed the role and verified the restriction returned. | Screenshots captured. |
+| 4. Bulk import and Microsoft Graph | Bulk-created users using CSV; verified successful creation in audit logs. Installed/verified Microsoft Graph PowerShell, connected with delegated permissions, created Samuel, and verified profile attribute updates. | Screenshots captured. A separate update attempt against directory-synchronised accounts failed as expected because those attributes are mastered on-premises; no changes were made to those accounts. |
+| 5. Delete and restore a user | Deleted Lami and restored the account from Deleted users; verified it returned to All users. | Screenshots captured. |
+| 6. Assign a Windows Enterprise licence | Tenant licence availability was inspected and licence-selection work was performed during the exercise. The sample user Raul Razo was not present in this tenant, so the lab's exact sample-user validation could not be reproduced. | Do not describe this as a verified Raul Razo assignment. |
+
+**Progress note:** Exercises 1–5 have been validated with screenshots. Exercise 6 is documented as an environment-specific adaptation rather than claiming the original sample-user workflow was completed exactly.
+
+**Security note:** Screenshots and CSV evidence must be reviewed and redacted before public publication. Do not upload source CSV files containing initial passwords, screenshots showing passwords, tokens, or other secrets.
+
 ## Documentation
 - [Architecture](./ARCHITECTURE.md)
 - [Progress tracker](./PROGRESS.md)
