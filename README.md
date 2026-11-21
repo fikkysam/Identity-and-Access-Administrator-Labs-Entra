@@ -38,13 +38,25 @@ The first lab has been worked through using dedicated test identities in the non
 
 Completed the tenant-properties lab in the non-production Microsoft 365 / Microsoft Entra tenant.
 
-- Created the `sales.fikayo.onmicrosoft.com` subdomain through Microsoft 365 admin center. DNS configuration was intentionally skipped, so the domain remains listed as **Incomplete setup**.
+- Created the sales subdomain through Microsoft 365 admin center. DNS configuration was intentionally skipped, so the domain remains listed as **Incomplete setup**.
 - Changed the tenant display name to **Contoso Marketing** and reviewed the technical contact.
 - Reviewed the tenant country/region (**Canada**), the displayed primary-copy data location (**United States datacenters**), and located and recorded the Tenant ID.
-- Configured Lami as the global privacy contact and added the Contoso sample privacy statement URL.
+- Configured the global privacy contact and added the Contoso sample privacy statement URL.
 - Verified that the organizational privacy statement opened from **My Account → Data and Privacy → Organization's notice**.
 
-See the [Lab 02 implementation record and evidence index](./Module-01-Identity-Management/Lab-02-working-with-tenant-properties/README.md). The redacted screenshot ZIP is prepared for extraction into that lab's `screenshots/` folder.
+See the [Lab 02 implementation record and evidence index](./Module-01-Identity-Management/Lab-02-working-with-tenant-properties/README.md). The redacted screenshot ZIP is prepared for extraction into that lab's screenshots folder.
+
+## Lab 03 progress — Assigning Licenses Using Group Membership
+
+Validated the three exercises in the non-production tenant using Microsoft 365 E5 and tenant test identities.
+
+- Assigned Microsoft 365 E5 to security group **sec-001** and verified that Lami's licence assignment path was **Inherited (sec-001)**. Jones's existing E5 assignment was inspected as Direct and left unchanged.
+- Created Microsoft 365 group **sec-002** with two assigned members.
+- Created all-users dynamic group **dynamic-001**; after membership processing it contained 70 users.
+- Tested guest-only and member-only dynamic rules. The guest group contained 2 users and the member group contained 68 users; the counts reconcile to 70.
+- Used tenant-specific group names and identities rather than the Microsoft sample names. The separate Office web-app sign-in checks in the sample instructions were not performed; licence inheritance was verified in Entra ID.
+
+See the [Lab 03 implementation record](./Module-01-Identity-Management/Lab-03-assigning-licenses-using-group-membership/README.md). The 12-image redacted evidence ZIP has been prepared locally; upload and extraction into the lab's screenshots folder remain pending, so Lab 03 remains **Validated**, not Completed.
 
 ## Documentation
 - [Architecture](./ARCHITECTURE.md)
