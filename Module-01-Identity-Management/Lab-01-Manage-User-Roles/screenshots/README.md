@@ -168,10 +168,3 @@ This folder contains the project screenshots in workflow order. Each entry expla
 - Understanding the source-of-authority limitation for directory-synchronized identities in a hybrid environment.
 - Recovering a soft-deleted user and reviewing licence assignment workflows.
 
-## Evidence and security notes
-
-- The screenshot showing a plaintext temporary password was intentionally excluded. Never commit passwords, access tokens, client secrets, recovery codes, or other credentials.
-- Review screenshots for personal information, tenant identifiers, and email addresses before sharing the repository publicly. Redact details that are not necessary to demonstrate the task.
-- Do not upload a source CSV containing initial passwords.
-- The licensing screenshots relate to Lami. The unrelated Samuel licence-panel screenshot was excluded.
-- Screenshots document the visible actions and outcomes. Where an item is described as a review or troubleshooting observation, it should not be interpreted as proof of a successful assignment or update.
