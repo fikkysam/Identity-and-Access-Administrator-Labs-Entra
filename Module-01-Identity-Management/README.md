@@ -14,4 +14,4 @@ This module covers directory role administration, tenant properties, group-based
 | 06 | Add a Federated Identity Provider | Planned |
 | 07 | Add Hybrid Identity with Microsoft Entra Connect | Planned |
 
-See the individual lab folders for Microsoft instructions, implementation records, validation results, and evidence.
+See the individual project folders for implementation records, validation results, technical findings, and evidence.
