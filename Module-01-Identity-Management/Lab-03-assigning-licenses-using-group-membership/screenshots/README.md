@@ -1,6 +1,6 @@
-# Lab 03 Screenshot Evidence
+# Group-Based Licensing and Dynamic Membership — Evidence
 
-This index describes the 12 redacted screenshots prepared for this lab. The archive is currently available to download from the ChatGPT conversation and has not yet been uploaded into this GitHub folder.
+This index describes the 12 redacted screenshots prepared for this project. The archive is currently available to download from the ChatGPT conversation and has not yet been uploaded into this project evidence folder.
 
 | File | What the screenshot demonstrates |
 |---|---|
@@ -21,9 +21,7 @@ This index describes the 12 redacted screenshots prepared for this lab. The arch
 
 Browser tabs and address-bar details, the signed-in administrator identity, breadcrumb identifiers, and visible email-address fields were obscured where applicable. No passwords, access tokens, or recovery codes are included.
 
-## Environment-specific adaptations
+## Implementation context
 
-- Microsoft 365 E5 was used instead of Office 365 E3.
 - Lami was used for inherited-licence validation; Jones's direct assignment was inspected and left unchanged.
 - Group names used in the tenant were sec-001, sec-002, dynamic-001, dynamic guest-001, and dynamic member-001.
-- The sample's separate Office web-app access screenshots were not captured.
