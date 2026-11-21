@@ -53,8 +53,9 @@ Implemented and validated group-based licensing and dynamic membership in the no
 - Created all-users dynamic group **dynamic-001**; after membership processing it contained 70 users.
 - Tested guest-only and member-only dynamic rules. The guest group contained 2 users and the member group contained 68 users; the counts reconcile to 70.
 - Used tenant-specific names: **Lami**, **Microsoft 365 E5**, **sec-001**, **sec-002**, **dynamic-001**, **dynamic guest-001**, and **dynamic member-001**. Licence inheritance was verified directly in Microsoft Entra ID.
+- Published all 12 redacted screenshots with an evidence index in the lab's screenshots folder.
 
-See the [project implementation record](./Module-01-Identity-Management/Lab-03-assigning-licenses-using-group-membership/README.md). The 12-image redacted evidence ZIP has been prepared locally; upload and extraction into the project's screenshots folder remain pending, so the project evidence package is **Validated**; repository publication is pending.
+See the [completed Lab 03 implementation record](./Module-01-Identity-Management/Lab-03-assigning-licenses-using-group-membership/README.md) and [12-screenshot evidence index](./Module-01-Identity-Management/Lab-03-assigning-licenses-using-group-membership/screenshots/README.md). The evidence documents Entra configuration and membership results; separate Office web-app sign-in testing is not claimed.
 
 ## Project — External Collaboration and Guest Access Configuration
 
