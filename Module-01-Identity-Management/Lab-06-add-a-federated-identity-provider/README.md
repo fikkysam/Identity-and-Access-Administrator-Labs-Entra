@@ -1,8 +1,7 @@
 # Lab 06 — Google External Identity Provider Federation
 
 **Module:** Identity Management  
-**Implementation status:** Implemented and validated  
-**Evidence status:** Screenshot package prepared; repository publication pending
+**Status:** Completed — implementation, authentication validation, troubleshooting, and 15 selected screenshots published
 
 ## Objective
 
@@ -106,7 +105,7 @@ The My Apps dashboard displayed no applications. This is consistent with the gue
 
 ## Evidence
 
-The ordered screenshot package and per-image explanations are in [`screenshots/`](./screenshots/). See [`screenshots/README.md`](./screenshots/README.md) for the evidence index.
+The 15 selected screenshots and per-image explanations are published in [`screenshots/`](./screenshots/). See [`screenshots/README.md`](./screenshots/README.md) for the evidence index.
 
 ## Security considerations
 
@@ -117,4 +116,4 @@ The ordered screenshot package and per-image explanations are in [`screenshots/`
 
 ## Completion state
 
-Implementation and authentication validation are complete. The evidence archive is prepared for upload to the repository. The progress tracker should remain at **Validated** until the screenshots are published in the Lab 06 `screenshots/` directory.
+Implementation, authentication validation, troubleshooting, and publication of the 15 selected screenshots are complete. Lab 06 is **Completed** and recorded as such in the repository progress tracker.
