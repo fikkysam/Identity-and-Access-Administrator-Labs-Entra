@@ -70,21 +70,3 @@ Lab-XX-Short-Name/
 |-- scripts/            (only when applicable)
 \-- evidence/           (only when applicable)
 ```
-
-Not every lab needs scripts or separate notes. Add only artifacts that were actually used. Screenshot indexes explain what each image proves; image files must be redacted before publication.
-
-## Environment and security boundaries
-
-- Prefer a dedicated non-production Microsoft Entra tenant and test identities.
-- Confirm required Entra ID, Microsoft 365, Azure, and Defender licensing before implementation.
-- Keep emergency access accounts protected and excluded from disruptive test policies where appropriate.
-- Never publish credentials, secrets, tokens, recovery codes, or sensitive personal/tenant data.
-- Redact administrator identities, tenant identifiers, domains, usernames, IP addresses, and other identifying details when disclosure is not necessary.
-
-## Documentation principles
-
-- Distinguish planned work from attempted, implemented, validated, and completed work.
-- Record actual outcomes; do not claim a feature worked unless tested.
-- Clearly distinguish configuration-state verification from end-to-end functional testing.
-- Note licensing constraints, portal changes, and deviations from Microsoft instructions.
-- Link each lab to its official Microsoft Learning source.
