@@ -26,6 +26,3 @@ This folder contains 15 selected screenshots documenting the Google external ide
 
 `Module-01-Identity-Management/Lab-06-add-a-federated-identity-provider/screenshots/`
 
-## Security review
-
-Before publishing this folder, inspect each image for personal identifiers and ensure no passwords, client secrets, access tokens, or other credentials are exposed. The selected screenshots are intended as portfolio evidence; do not publish unmasked secrets.
