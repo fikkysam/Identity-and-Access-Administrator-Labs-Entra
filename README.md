@@ -81,7 +81,7 @@ Implemented guest onboarding through three Microsoft Entra invitation methods:
 - Verified delivery of the PowerShell invitation email and accepted the invitation from the external account.
 - Confirmed the resulting directory object had **User type: Guest**, **Creation type: Invitation**, **Invitation state: Accepted**, and **Account enabled: Yes**.
 
-See the [Lab 05 implementation record](./Module-01-Identity-Management/Lab-05-add-guest-users-to-the-directory/README.md). The implementation and guest redemption are validated; redacted screenshot evidence still needs to be published before the lab is counted as completed.
+See the [Lab 05 implementation record](./Module-01-Identity-Management/Lab-05-add-guest-users-to-the-directory/README.md). The implementation, guest redemption, troubleshooting, and selected redacted screenshot evidence are documented in the repository. **Status: Completed.**
 
 ## Project — Google External Identity Provider Federation
 
@@ -94,7 +94,7 @@ Configured Google as an external identity provider in Microsoft Entra ID and val
 - Verified the guest's federated sign-in identifier used issuer **google.com**, and confirmed a subsequent Entra sign-in event succeeded.
 - Confirmed the Authentication Details record showed the first-factor requirement as previously satisfied and successful. The My Apps page had no applications because none were assigned to the guest.
 
-See the [Lab 06 implementation and troubleshooting record](./Module-01-Identity-Management/Lab-06-add-a-federated-identity-provider/README.md). The ordered 46-image evidence package is prepared for publication in the lab's `screenshots/` folder; repository evidence upload is still pending.
+See the [Lab 06 implementation and troubleshooting record](./Module-01-Identity-Management/Lab-06-add-a-federated-identity-provider/README.md). The selected 15-image evidence package has been published in the lab's `screenshots/` folder, with an evidence index explaining each screenshot. **Status: Completed.**
 
 ## Documentation
 - [Architecture](./ARCHITECTURE.md)
