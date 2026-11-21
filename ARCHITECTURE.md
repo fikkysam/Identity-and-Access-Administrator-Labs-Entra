@@ -11,7 +11,8 @@ Microsoft Entra ID – Identity and Access Administrator
 |
 +-- Module 01: Identity Management (Labs 01–07)
 |   +-- Directory roles and tenant configuration
-|   +-- Licensing and external collaboration
+|   +-- Group-based licensing, assigned groups, and dynamic membership
+|   +-- External collaboration
 |   +-- Guest identities, federation, hybrid identity
 |
 +-- Module 02: Authentication and Access (Labs 08–16)
