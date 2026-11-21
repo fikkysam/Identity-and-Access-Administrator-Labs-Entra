@@ -1,6 +1,6 @@
-# SC-300 Lab 01 — Screenshot Evidence Guide
+# Project Evidence — Privileged Role Assignment and User Lifecycle Management
 
-This folder contains the Lab 01 screenshots in workflow order. Each entry explains **what was done**, **what the screenshot shows**, and **why the step matters**. The aim is to make the evidence understandable to a reviewer who did not participate in the lab.
+This folder contains the project screenshots in workflow order. Each entry explains **what was done**, **what the screenshot shows**, and **why the evidence matters** to a technical reviewer.
 
 ## Evidence index and explanations
 
@@ -67,7 +67,7 @@ This folder contains the Lab 01 screenshots in workflow order. Each entry explai
 
 12. **`12-Verified-PowerShell-Environment.png`**
     - **Action:** Checked the PowerShell environment used for the command-line exercises.
-    - **What it shows:** The PowerShell version/environment available for the lab.
+    - **What it shows:** The PowerShell version/environment available for the project.
     - **Why it matters:** Records the execution environment so the administration steps can be reproduced and troubleshooting can account for version differences.
 
 13. **`13-Verified-Microsoft-Graph-SDK-Installation.png`**
