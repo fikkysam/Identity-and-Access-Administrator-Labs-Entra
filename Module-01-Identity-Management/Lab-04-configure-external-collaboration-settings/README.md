@@ -1,7 +1,7 @@
 # Project – Microsoft Entra External Collaboration and Guest Access Configuration
 
 **Project area:** Microsoft Entra ID identity and access management  
-**Implementation status:** Implemented and configuration state verified; redacted screenshot archive prepared locally; repository image upload pending  
+**Implementation status:** Completed — configuration state verified and four redacted screenshots published in the repository  
 **Environment:** Non-production Microsoft 365 / Microsoft Entra tenant
 
 ## Objective
@@ -82,8 +82,7 @@ The redacted evidence package contains four screenshots:
 
 The signed-in administrator identity and tenant/directory breadcrumb were obscured in the screenshots prepared for publication.
 
-**Local evidence archive:** `Lab-04-Redacted-Screenshot-Evidence.zip`  
-**Repository status:** Screenshot descriptions are documented in [screenshots/README.md](./screenshots/README.md). The PNG files are prepared in the local archive but have not yet been committed to this repository.
+**Published evidence:** Four redacted PNG screenshots are committed in this repository under [`screenshots/`](./screenshots/). The [screenshot evidence index](./screenshots/README.md) explains what each image demonstrates.
 
 ## Security considerations
 
@@ -111,8 +110,8 @@ The signed-in administrator identity and tenant/directory breadcrumb were obscur
 - [x] Configuration state reviewed in the Entra admin center
 - [x] Screenshot evidence captured and redacted
 - [x] Implementation details, validation boundaries, and security implications documented
-- [ ] Redacted PNG evidence uploaded into the repository screenshots folder
-- [ ] Final repository evidence review completed
+- [x] Redacted PNG evidence uploaded into the repository screenshots folder
+- [x] Final repository evidence review completed
 
 ## Official reference
 
