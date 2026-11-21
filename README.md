@@ -83,6 +83,19 @@ Implemented guest onboarding through three Microsoft Entra invitation methods:
 
 See the [Lab 05 implementation record](./Module-01-Identity-Management/Lab-05-add-guest-users-to-the-directory/README.md). The implementation and guest redemption are validated; redacted screenshot evidence still needs to be published before the lab is counted as completed.
 
+## Project — Google External Identity Provider Federation
+
+Configured Google as an external identity provider in Microsoft Entra ID and validated B2B guest authentication using a Google account.
+
+- Created a Google Cloud OAuth web client and configured the Microsoft Entra sign-in origin and tenant-specific redirect URIs.
+- Added the Google OAuth client credentials to **External Identities → All identity providers → Google** and verified the provider status was **Configured**.
+- Invited an external Gmail identity, located the invitation in Gmail Spam, moved it to All Mail, and completed invitation redemption and consent.
+- Investigated the initial Microsoft username lookup failure and Entra sign-in error **500141**; re-ran the test through the intended invitation/federation flow.
+- Verified the guest's federated sign-in identifier used issuer **google.com**, and confirmed a subsequent Entra sign-in event succeeded.
+- Confirmed the Authentication Details record showed the first-factor requirement as previously satisfied and successful. The My Apps page had no applications because none were assigned to the guest.
+
+See the [Lab 06 implementation and troubleshooting record](./Module-01-Identity-Management/Lab-06-add-a-federated-identity-provider/README.md). The ordered 46-image evidence package is prepared for publication in the lab's `screenshots/` folder; repository evidence upload is still pending.
+
 ## Documentation
 - [Architecture](./ARCHITECTURE.md)
 - [Progress tracker](./PROGRESS.md)
