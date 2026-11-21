@@ -8,7 +8,7 @@ This module covers directory role administration, tenant properties, group-based
 |---:|---|---|
 | 01 | Manage User Roles | Completed |
 | 02 | Working with Tenant Properties | Completed |
-| 03 | Assigning Licenses Using Group Membership | Planned |
+| 03 | Assigning Licenses Using Group Membership | Validated – evidence upload pending |
 | 04 | Configure External Collaboration Settings | Planned |
 | 05 | Add Guest Users to the Directory | Planned |
 | 06 | Add a Federated Identity Provider | Planned |
