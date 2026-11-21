@@ -1,6 +1,6 @@
 # Lab Progress Tracker
 
-**Overall status:** 4 / 28 completed  
+**Overall status:** 6 / 28 completed  
 **Status definitions:** Planned → In Progress → Implemented → Validated → Completed
 
 A lab is counted as completed only after the configuration has been tested and its evidence and findings documented in the repository.
@@ -11,8 +11,8 @@ A lab is counted as completed only after the configuration has been tested and i
 | 02 | Working with Tenant Properties | Completed |
 | 03 | Assigning Licenses Using Group Membership | Completed |
 | 04 | Configure External Collaboration Settings | Completed |
-| 05 | Add Guest Users to the Directory | Validated – evidence publication pending |
-| 06 | Add a Federated Identity Provider | Validated – screenshot package prepared; repository publication pending |
+| 05 | Add Guest Users to the Directory | Completed |
+| 06 | Add a Federated Identity Provider | Completed |
 | 07 | Add Hybrid Identity with Microsoft Entra Connect | Planned |
 | 08 | Enable Multi-Factor Authentication | Planned |
 | 09 | Enable Microsoft Entra Self-Service Password Reset | Planned |
