@@ -1,7 +1,6 @@
 # Lab Progress Tracker
 
-**Overall status:** 3 / 28 completed  
-**Additional validation:** Lab 03 validated; redacted screenshot archive prepared, repository upload pending.  
+**Overall status:** 4 / 28 completed  
 **Status definitions:** Planned → In Progress → Implemented → Validated → Completed
 
 A lab is counted as completed only after the configuration has been tested and its evidence and findings documented in the repository.
@@ -10,7 +9,7 @@ A lab is counted as completed only after the configuration has been tested and i
 |---:|---|---|
 | 01 | Manage User Roles | Completed |
 | 02 | Working with Tenant Properties | Completed |
-| 03 | Assigning Licenses Using Group Membership | Validated – evidence upload pending |
+| 03 | Assigning Licenses Using Group Membership | Completed |
 | 04 | Configure External Collaboration Settings | Completed |
 | 05 | Add Guest Users to the Directory | Planned |
 | 06 | Add a Federated Identity Provider | Planned |
