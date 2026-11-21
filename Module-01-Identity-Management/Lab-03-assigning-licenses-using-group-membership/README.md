@@ -97,9 +97,9 @@ The counts reconcile with the all-users group: 2 guest users + 68 member users =
 
 The redacted screenshot package contains 12 images and a screenshot index. Browser tabs, address-bar details, signed-in administrator identity, breadcrumb identifiers, and visible email-address fields have been obscured where applicable.
 
-The archive is prepared locally for extraction into this lab's screenshots folder. It has not yet been uploaded to this GitHub repository.
+The 12-image archive is prepared as a local deliverable for extraction into this lab's screenshots folder. It has not yet been uploaded to this GitHub repository.
 
-See [screenshots/README.md](./screenshots/README.md) for the filename-by-filename evidence descriptions after the screenshot folder is populated.
+See [screenshots/README.md](./screenshots/README.md) for the filename-by-filename evidence descriptions and upload checklist.
 
 ## Troubleshooting and lessons learned
 
