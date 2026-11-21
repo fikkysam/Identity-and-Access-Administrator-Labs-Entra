@@ -46,17 +46,17 @@ Completed the tenant-properties lab in the non-production Microsoft 365 / Micros
 
 See the [Lab 02 implementation record and evidence index](./Module-01-Identity-Management/Lab-02-working-with-tenant-properties/README.md). The redacted screenshot ZIP is prepared for extraction into that lab's screenshots folder.
 
-## Lab 03 progress — Assigning Licenses Using Group Membership
+## Project — Group-Based Licensing and Dynamic Membership
 
-Validated the three exercises in the non-production tenant using Microsoft 365 E5 and tenant test identities.
+Implemented and validated group-based licensing and dynamic membership in the non-production tenant using Microsoft 365 E5 and tenant test identities.
 
 - Assigned Microsoft 365 E5 to security group **sec-001** and verified that Lami's licence assignment path was **Inherited (sec-001)**. Jones's existing E5 assignment was inspected as Direct and left unchanged.
 - Created Microsoft 365 group **sec-002** with two assigned members.
 - Created all-users dynamic group **dynamic-001**; after membership processing it contained 70 users.
 - Tested guest-only and member-only dynamic rules. The guest group contained 2 users and the member group contained 68 users; the counts reconcile to 70.
-- Used tenant-specific names: **Lami**, **Microsoft 365 E5**, **sec-001**, **sec-002**, **dynamic-001**, **dynamic guest-001**, and **dynamic member-001**. The separate Office web-app sign-in checks in the sample instructions were not performed; licence inheritance was verified in Entra ID.
+- Used tenant-specific names: **Lami**, **Microsoft 365 E5**, **sec-001**, **sec-002**, **dynamic-001**, **dynamic guest-001**, and **dynamic member-001**. Licence inheritance was verified directly in Microsoft Entra ID.
 
-See the [Lab 03 implementation record](./Module-01-Identity-Management/Lab-03-assigning-licenses-using-group-membership/README.md). The 12-image redacted evidence ZIP has been prepared locally; upload and extraction into the lab's screenshots folder remain pending, so Lab 03 remains **Validated**, not Completed.
+See the [project implementation record](./Module-01-Identity-Management/Lab-03-assigning-licenses-using-group-membership/README.md). The 12-image redacted evidence ZIP has been prepared locally; upload and extraction into the lab's screenshots folder remain pending, so the project evidence package is **Validated**; repository publication is pending.
 
 ## Documentation
 - [Architecture](./ARCHITECTURE.md)
