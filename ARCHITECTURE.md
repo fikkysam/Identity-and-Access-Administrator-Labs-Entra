@@ -12,7 +12,7 @@ Microsoft Entra ID – Identity and Access Administrator
 +-- Module 01: Identity Management (Labs 01–07)
 |   +-- Directory roles and tenant configuration
 |   +-- Group-based licensing, assigned groups, and dynamic membership
-|   +-- External collaboration
+|   +-- External collaboration and guest access controls
 |   +-- Guest identities, federation, hybrid identity
 |
 +-- Module 02: Authentication and Access (Labs 08–16)
@@ -45,16 +45,16 @@ Review prerequisites and licensing
 Implement in a controlled test environment
             |
             v
-Validate expected behavior
+Validate expected behavior and record validation boundaries
             |
             v
-Capture redacted evidence
+Capture and redact evidence
             |
             v
-Document results and troubleshooting
+Document implementation, security implications, and findings
             |
             v
-Update lab status and progress tracker
+Publish evidence and update lab status
 ```
 
 ## Standard lab folder
@@ -65,12 +65,13 @@ Each lab should use a consistent structure:
 Lab-XX-Short-Name/
 |-- README.md
 |-- screenshots/
+|   \-- README.md       (evidence index and screenshot descriptions)
 |-- notes/
-|-- scripts/       (only when applicable)
-\-- evidence/
+|-- scripts/            (only when applicable)
+\-- evidence/           (only when applicable)
 ```
 
-Not every lab needs scripts or separate notes. Add only artifacts that were actually used.
+Not every lab needs scripts or separate notes. Add only artifacts that were actually used. Screenshot indexes explain what each image proves; image files must be redacted before publication.
 
 ## Environment and security boundaries
 
@@ -78,11 +79,12 @@ Not every lab needs scripts or separate notes. Add only artifacts that were actu
 - Confirm required Entra ID, Microsoft 365, Azure, and Defender licensing before implementation.
 - Keep emergency access accounts protected and excluded from disruptive test policies where appropriate.
 - Never publish credentials, secrets, tokens, recovery codes, or sensitive personal/tenant data.
-- Redact tenant IDs, domains, usernames, IP addresses, and other identifying details when disclosure is not necessary.
+- Redact administrator identities, tenant identifiers, domains, usernames, IP addresses, and other identifying details when disclosure is not necessary.
 
 ## Documentation principles
 
-- Distinguish planned work from attempted, validated, and completed work.
+- Distinguish planned work from attempted, implemented, validated, and completed work.
 - Record actual outcomes; do not claim a feature worked unless tested.
+- Clearly distinguish configuration-state verification from end-to-end functional testing.
 - Note licensing constraints, portal changes, and deviations from Microsoft instructions.
 - Link each lab to its official Microsoft Learning source.
