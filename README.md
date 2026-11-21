@@ -19,9 +19,9 @@ A practical portfolio of 28 Microsoft SC-300-aligned labs covering identity mana
 | [03 – Application Access](./Module-03-Application-Access/) | Defender for Cloud Apps, app registration, application access and consent | 17–21 |
 | [04 – Identity Governance](./Module-04-Identity-Governance/) | Entitlement management, Terms of Use, lifecycle, access reviews, PIM, Sentinel, Secure Score | 22–28 |
 
-## Lab 01 progress — Manage User Roles
+## Project — Privileged Role Assignment and User Lifecycle Management
 
-The first lab has been worked through using dedicated test identities in the non-production tenant.
+Implemented and validated directory role administration, user lifecycle operations, bulk provisioning, and Microsoft Graph PowerShell workflows in the non-production tenant.
 
 | Exercise | Work completed | Evidence / notes |
 |---|---|---|
@@ -34,9 +34,9 @@ The first lab has been worked through using dedicated test identities in the non
 
 **Progress note:** Exercises 1–5 have been validated with screenshots. Exercise 6 is documented as an environment-specific adaptation rather than claiming the original sample-user workflow was completed exactly.
 
-## Lab 02 progress — Working with Tenant Properties
+## Project — Microsoft Entra Tenant Configuration and Privacy Controls
 
-Completed the tenant-properties lab in the non-production Microsoft 365 / Microsoft Entra tenant.
+Implemented tenant-level domain, organization profile, location metadata, and privacy-notice configuration in the non-production Microsoft 365 / Microsoft Entra tenant.
 
 - Created the sales subdomain through Microsoft 365 admin center. DNS configuration was intentionally skipped, so the domain remains listed as **Incomplete setup**.
 - Changed the tenant display name to **Contoso Marketing** and reviewed the technical contact.
@@ -44,7 +44,7 @@ Completed the tenant-properties lab in the non-production Microsoft 365 / Micros
 - Configured the global privacy contact and added the Contoso sample privacy statement URL.
 - Verified that the organizational privacy statement opened from **My Account → Data and Privacy → Organization's notice**.
 
-See the [Lab 02 implementation record and evidence index](./Module-01-Identity-Management/Lab-02-working-with-tenant-properties/README.md). The redacted screenshot ZIP is prepared for extraction into that lab's screenshots folder.
+See the [tenant configuration project record](./Module-01-Identity-Management/Lab-02-working-with-tenant-properties/README.md). The six-image redacted evidence package documents the configuration and validation results.
 
 ## Project — Group-Based Licensing and Dynamic Membership
 
@@ -56,14 +56,14 @@ Implemented and validated group-based licensing and dynamic membership in the no
 - Tested guest-only and member-only dynamic rules. The guest group contained 2 users and the member group contained 68 users; the counts reconcile to 70.
 - Used tenant-specific names: **Lami**, **Microsoft 365 E5**, **sec-001**, **sec-002**, **dynamic-001**, **dynamic guest-001**, and **dynamic member-001**. Licence inheritance was verified directly in Microsoft Entra ID.
 
-See the [project implementation record](./Module-01-Identity-Management/Lab-03-assigning-licenses-using-group-membership/README.md). The 12-image redacted evidence ZIP has been prepared locally; upload and extraction into the lab's screenshots folder remain pending, so the project evidence package is **Validated**; repository publication is pending.
+See the [project implementation record](./Module-01-Identity-Management/Lab-03-assigning-licenses-using-group-membership/README.md). The 12-image redacted evidence ZIP has been prepared locally; upload and extraction into the project's screenshots folder remain pending, so the project evidence package is **Validated**; repository publication is pending.
 
 ## Documentation
 - [Architecture](./ARCHITECTURE.md)
 - [Progress tracker](./PROGRESS.md)
 
-## Lab documentation standard
-Each lab records its objective, prerequisites and licensing, implementation, configuration rationale, validation, evidence, troubleshooting, and lessons learned.
+## Project documentation standard
+Each project records its objective, environment, implementation decisions, validation results, evidence, security considerations, and technical findings.
 
 ## Status policy
 All labs begin as **Planned**. A lab is marked **Completed** only after implementation, validation, and documentation. Creating a folder or reading instructions does not count as completion.
@@ -71,4 +71,4 @@ All labs begin as **Planned**. A lab is marked **Completed** only after implemen
 ## Security
 Use a dedicated non-production environment wherever possible. Never commit passwords, access tokens, client secrets, recovery codes, personal data, or unredacted sensitive tenant information. Redact screenshots before publishing.
 
-Each lab folder links to its corresponding Microsoft Learning instruction page.
+Project folders document the actual tenant configuration, implementation decisions, validation evidence, and any limitations.
