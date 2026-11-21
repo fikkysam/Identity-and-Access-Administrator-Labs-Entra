@@ -1,7 +1,7 @@
 # Project – Group-Based Licensing and Dynamic Membership
 
 **Project area:** Microsoft Entra ID identity and access management  
-**Implementation status:** Configuration and membership results validated; redacted evidence package prepared  
+**Implementation status:** Completed — configuration, membership results, and published evidence verified  
 **Environment:** Non-production Microsoft 365 / Microsoft Entra tenant
 
 ## Objective
@@ -91,14 +91,15 @@ The counts reconcile with the all-users group: 2 guest users + 68 member users =
 | Guest-only dynamic group | Only Guest users match | **Pass** – dynamic guest-001 shows 2 users |
 | Member-only dynamic group | Only Member users match | **Pass** – dynamic member-001 shows 68 users |
 | Guest/member reconciliation | Guest and Member results reconcile to all-users total | **Pass** – 2 + 68 = 70 |
+| Evidence publication | Redacted implementation screenshots available in repository | **Pass** – 12 screenshots and their evidence index are published in this lab's screenshots folder |
 
 ## Evidence
 
-The project evidence package contains 12 redacted screenshots and a screenshot index. Browser tabs, address-bar details, signed-in administrator identity, breadcrumb identifiers, and visible email-address fields have been obscured where applicable.
+The repository contains 12 redacted screenshots documenting the implementation and validation results. Browser tabs, address-bar details, signed-in administrator identity, breadcrumb identifiers, and visible email-address fields have been obscured where applicable.
 
-The 12-image archive is prepared as a local deliverable for extraction into this project's screenshots folder. It has not yet been uploaded to this GitHub repository.
+See [screenshots/README.md](./screenshots/README.md) for the filename-by-filename evidence descriptions.
 
-See [screenshots/README.md](./screenshots/README.md) for the filename-by-filename evidence descriptions and upload checklist.
+**Validation boundary:** The screenshots document the licence state, group configuration, membership rules, and observed membership results in Microsoft Entra ID. Separate end-user sign-in to Office web apps was not captured and is not claimed as a test result.
 
 ## Technical notes and lessons learned
 
@@ -127,5 +128,5 @@ See [screenshots/README.md](./screenshots/README.md) for the filename-by-filenam
 - [x] Member-only dynamic rule tested and 68 users verified
 - [x] Validation results and implementation details documented
 - [x] Screenshots captured and redacted
-- [ ] Redacted screenshot archive uploaded and extracted into this repository
-- [ ] Final repository evidence review completed
+- [x] Redacted screenshots published in this repository
+- [x] Final repository evidence review completed
