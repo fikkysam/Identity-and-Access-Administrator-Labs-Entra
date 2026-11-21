@@ -142,7 +142,7 @@ This validates the invitation and redemption lifecycle for the PowerShell-create
 
 ## Evidence
 
-Create a `screenshots/` folder and publish redacted evidence for:
+Created a `screenshots/` folder and published redacted evidence for:
 1. Successful individual guest invitation notification.
 2. Audit log entries for the individual and bulk guest invitations.
 3. CSV template populated with redacted email addresses.
