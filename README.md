@@ -66,7 +66,7 @@ Configured Microsoft Entra external collaboration controls in the non-production
 - Enabled Email one-time passcode for guests and verified the provider's detailed setting.
 - Reviewed collaboration restrictions and retained the exercise's default allow-any-domain setting.
 
-The configuration state was verified in the Entra admin center. The implementation record distinguishes portal configuration checks from end-to-end invitation or guest sign-in testing, which was not performed. A four-image redacted screenshot archive is prepared locally; repository image upload remains pending.
+The configuration state was verified in the Entra admin center, and four redacted screenshots have been published in the Lab 04 screenshots folder. Validation covers the tenant configuration shown in the portal; a live external invitation, guest redemption, user-flow execution, and guest sign-in were not performed.
 
 See the [Lab 04 implementation record](./Module-01-Identity-Management/Lab-04-configure-external-collaboration-settings/README.md) and [screenshot evidence index](./Module-01-Identity-Management/Lab-04-configure-external-collaboration-settings/screenshots/README.md).
 
