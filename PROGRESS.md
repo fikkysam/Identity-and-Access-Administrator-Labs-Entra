@@ -11,7 +11,7 @@ A lab is counted as completed only after the configuration has been tested and i
 | 02 | Working with Tenant Properties | Completed |
 | 03 | Assigning Licenses Using Group Membership | Completed |
 | 04 | Configure External Collaboration Settings | Completed |
-| 05 | Add Guest Users to the Directory | Planned |
+| 05 | Add Guest Users to the Directory | Validated – evidence publication pending |
 | 06 | Add a Federated Identity Provider | Planned |
 | 07 | Add Hybrid Identity with Microsoft Entra Connect | Planned |
 | 08 | Enable Multi-Factor Authentication | Planned |
