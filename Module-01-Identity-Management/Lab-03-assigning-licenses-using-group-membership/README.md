@@ -16,13 +16,17 @@ Create and manage assigned security and Microsoft 365 groups, assign a Microsoft
 
 The Microsoft sample instructions use Delia Dennis, Office 365 E3, and the group names **sg-SC300-O365**, **Northwest Sales**, and **SC300-myDynamicGroup**. This tenant used different test identities and naming conventions:
 
-| Microsoft sample | Actual implementation |
+| Microsoft sample / exercise | Actual implementation in this tenant |
 |---|---|
-| Delia Dennis | Lami for inherited-licence validation |
-| Office 365 E3 | Microsoft 365 E5 |
-| sg-SC300-O365 | sec-001 |
-| Northwest Sales | sec-002 |
-| SC300-myDynamicGroup | dynamic-001 |
+| Delia Dennis | **Lami** — used for inherited-licence validation |
+| Office 365 E3 | **Microsoft 365 E5** |
+| sg-SC300-O365 | **sec-001** — assigned security group for group-based licensing |
+| Northwest Sales | **sec-002** — Microsoft 365 group |
+| SC300-myDynamicGroup | **dynamic-001** — all-users dynamic security group |
+| Alternate guest-only rule (additional tenant test) | **dynamic guest-001** |
+| Alternate member-only rule (additional tenant test) | **dynamic member-001** |
+
+The final two groups are additional tenant-specific groups created to test the alternate Guest and Member rules in Exercise 3; they are not replacements for separate named groups in the Microsoft sample.
 
 Jones was inspected as an initial licensing baseline. Jones had an active Microsoft 365 E5 licence assigned **Directly**. That existing assignment was left unchanged. Lami was used as the test identity for group-based licence inheritance.
 
