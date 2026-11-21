@@ -1,26 +1,32 @@
-# Lab 05 — Guest Invitation Evidence
+# Lab 05 — Add Guest Users to the Directory: Evidence Pack
 
-This folder is the evidence location for Lab 05, **Add Guest Users to the Directory**.
+This pack contains selected screenshots from the hands-on Lab 05 session. Personal email addresses, account identifiers, tenant identifiers, and invitation-link areas have been obscured where visible.
 
-## Evidence package
+## Evidence index
 
-The complete local evidence archive currently contains ten redacted screenshots:
+1. **Individual guest invitation success** — Entra admin center success notification after inviting the individual guest.
+2. **Audit-log invitation events** — Microsoft Entra audit log showing successful `Invite external user` operations. Identity-bearing columns are obscured.
+3. **Bulk invitation CSV template** — the downloaded CSV template used to prepare the bulk guest invitation entries; identity values are obscured.
+4. **Microsoft Graph module installed** — PowerShell confirms Microsoft.Graph module version 2.40.0 from PSGallery.
+5. **Graph authentication context** — delegated Microsoft Graph context and PowerShell version; account and tenant identifiers are obscured.
+6. **Graph invitation parameters** — the Microsoft Graph invitation setup; external email addresses and tenant/account identifiers are obscured. This is parameter preparation evidence, not the command result.
+7. **Guest invitation email** — evidence that the PowerShell-created guest invitation email was received. Personal details and actionable invitation links are obscured.
+8. **Guest account accepted** — Entra user overview showing User type `Guest`, Creation type `Invitation`, Invitation state `Accepted`, and Account enabled `Yes`; personal identifiers are obscured.
 
-1. Individual guest invitation success notification.
-2. Entra audit log invitation events.
-3. Bulk invitation CSV template.
-4. Microsoft Graph PowerShell module installation.
-5. Microsoft Graph delegated authentication context.
-6. Graph invitation parameters (redacted).
-7. Guest invitation email (redacted).
-8. Guest account overview showing Guest user type and Accepted invitation state.
-9. Bulk invitation per-recipient result CSV showing both rows as Success (redacted).
-10. PowerShell `New-MgInvitation` execution output with invitation ID; redemption URL redacted.
+## Validation boundary
 
-## Publication status
+The screenshots support the individual invitation success, bulk invitation audit events, Graph module installation and delegated authentication, invitation email delivery, and accepted guest state. The PowerShell command output containing the generated invitation ID and redemption URL is intentionally not included because redemption URLs are sensitive. Bulk guest redemption is not claimed; the accepted state shown is for the PowerShell-created guest.
 
-The evidence archive has been prepared locally. The individual PNG files still need to be added to this repository folder. Do not treat this index alone as publication of the screenshots.
+## Handling
 
-## Security
+Keep invitation redemption URLs, credentials, access tokens, and unredacted personal or tenant identifiers out of public repositories. Review each image before publishing.
 
-All evidence must be reviewed for personal email addresses, tenant identifiers, object IDs, and invitation redemption URLs. Never publish an actionable redemption URL, access token, password, or other secret.
+
+## Additional evidence — bulk invitation result details
+
+9. `09-bulk-invitation-per-recipient-results-redacted.png` — downloaded bulk-operation result CSV opened in Excel. Both invitation rows show `Success`; external identifiers in the ObjectId column are redacted. This verifies two successful invitation records and no failed rows in this result file.
+
+
+## Additional evidence
+
+10. `10-powershell-invitation-execution-redacted.png` — Microsoft Graph `New-MgInvitation` execution output showing the returned invitation ID. The external email address and redemption URL are obscured.
