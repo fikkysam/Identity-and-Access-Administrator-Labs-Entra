@@ -137,7 +137,7 @@ This validates the invitation and redemption lifecycle for the PowerShell-create
 - [x] Guest redemption verified
 - [x] Guest user type and accepted invitation state verified
 - [x] Implementation and validation documented
-- [ ] Redacted screenshots organized and published in the repository
+- [ ] Redacted screenshots organized and published in the repository (local ZIP now includes the per-recipient bulk result evidence; GitHub publication remains pending)
 - [ ] Final repository evidence review completed
 
 ## Evidence
