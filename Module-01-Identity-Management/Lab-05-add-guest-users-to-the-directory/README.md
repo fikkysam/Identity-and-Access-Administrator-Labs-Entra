@@ -1,7 +1,7 @@
 # Lab 05 – Add Guest Users to the Directory
 
 **Module:** Identity Management  
-**Status:** Validated — implementation and guest redemption verified; redacted evidence publication pending  
+**Status:** Completed — implementation, guest redemption, troubleshooting, and selected redacted evidence published  
 **Environment:** Non-production Microsoft Entra ID tenant
 
 ## Objective
@@ -137,8 +137,8 @@ This validates the invitation and redemption lifecycle for the PowerShell-create
 - [x] Guest redemption verified
 - [x] Guest user type and accepted invitation state verified
 - [x] Implementation and validation documented
-- [ ] Redacted screenshots organized and published in the repository (local ZIP now includes the per-recipient bulk result evidence; GitHub publication remains pending)
-- [ ] Final repository evidence review completed
+- [x] Selected redacted screenshots organized and published in the repository
+- [x] Final repository evidence review completed
 
 ## Evidence
 
@@ -153,4 +153,4 @@ Create a `screenshots/` folder and publish redacted evidence for:
 8. Invitation email with personal email addresses and actionable links redacted.
 9. Guest account overview showing User type Guest and Invitation state Accepted.
 
-The lab is currently **Validated**. It will be marked **Completed** after the redacted screenshot evidence is published and reviewed.
+The lab is **Completed**. The repository contains the implementation record, validation results, troubleshooting notes, and selected redacted screenshot evidence.
