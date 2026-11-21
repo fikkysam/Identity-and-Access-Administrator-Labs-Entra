@@ -56,6 +56,20 @@ Implemented and validated group-based licensing and dynamic membership in the no
 
 See the [project implementation record](./Module-01-Identity-Management/Lab-03-assigning-licenses-using-group-membership/README.md). The 12-image redacted evidence ZIP has been prepared locally; upload and extraction into the project's screenshots folder remain pending, so the project evidence package is **Validated**; repository publication is pending.
 
+## Project — External Collaboration and Guest Access Configuration
+
+Configured Microsoft Entra external collaboration controls in the non-production tenant.
+
+- Restricted guest directory visibility to each guest's own directory object properties and memberships.
+- Allowed member users and users assigned to designated administrator roles to invite guests.
+- Enabled guest self-service sign-up via user flows.
+- Enabled Email one-time passcode for guests and verified the provider's detailed setting.
+- Reviewed collaboration restrictions and retained the exercise's default allow-any-domain setting.
+
+The configuration state was verified in the Entra admin center. The implementation record distinguishes portal configuration checks from end-to-end invitation or guest sign-in testing, which was not performed. A four-image redacted screenshot archive is prepared locally; repository image upload remains pending.
+
+See the [Lab 04 implementation record](./Module-01-Identity-Management/Lab-04-configure-external-collaboration-settings/README.md) and [screenshot evidence index](./Module-01-Identity-Management/Lab-04-configure-external-collaboration-settings/screenshots/README.md).
+
 ## Documentation
 - [Architecture](./ARCHITECTURE.md)
 - [Progress tracker](./PROGRESS.md)
@@ -64,7 +78,7 @@ See the [project implementation record](./Module-01-Identity-Management/Lab-03-a
 Each project records its objective, environment, implementation decisions, validation results, evidence, security considerations, and technical findings.
 
 ## Status policy
-All labs begin as **Planned**. A lab is marked **Completed** only after implementation, validation, and documentation. Creating a folder or reading instructions does not count as completion.
+All labs begin as **Planned**. A lab is marked **Completed** only after implementation, validation, documentation, and evidence publication. Creating a folder or reading instructions does not count as completion.
 
 ## Security
 Use a dedicated non-production environment wherever possible. Never commit passwords, access tokens, client secrets, recovery codes, personal data, or unredacted sensitive tenant information. Redact screenshots before publishing.
