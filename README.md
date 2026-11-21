@@ -71,6 +71,18 @@ The configuration state was verified in the Entra admin center, and four redacte
 
 See the [Lab 04 implementation record](./Module-01-Identity-Management/Lab-04-configure-external-collaboration-settings/README.md) and [screenshot evidence index](./Module-01-Identity-Management/Lab-04-configure-external-collaboration-settings/screenshots/README.md).
 
+## Project — Add Guest Users to the Directory
+
+Implemented guest onboarding through three Microsoft Entra invitation methods:
+
+- Invited an individual guest through the Entra admin center and confirmed the successful invitation notification.
+- Submitted two guest invitations using the bulk CSV workflow and verified successful invitation events in the directory audit log.
+- Installed Microsoft.Graph PowerShell **2.40.0**, authenticated with delegated permissions, confirmed `User.ReadWrite.All`, and created another invitation using `New-MgInvitation`.
+- Verified delivery of the PowerShell invitation email and accepted the invitation from the external account.
+- Confirmed the resulting directory object had **User type: Guest**, **Creation type: Invitation**, **Invitation state: Accepted**, and **Account enabled: Yes**.
+
+See the [Lab 05 implementation record](./Module-01-Identity-Management/Lab-05-add-guest-users-to-the-directory/README.md). The implementation and guest redemption are validated; redacted screenshot evidence still needs to be published before the lab is counted as completed.
+
 ## Documentation
 - [Architecture](./ARCHITECTURE.md)
 - [Progress tracker](./PROGRESS.md)
