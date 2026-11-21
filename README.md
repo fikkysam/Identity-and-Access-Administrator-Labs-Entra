@@ -54,7 +54,7 @@ Validated the three exercises in the non-production tenant using Microsoft 365 E
 - Created Microsoft 365 group **sec-002** with two assigned members.
 - Created all-users dynamic group **dynamic-001**; after membership processing it contained 70 users.
 - Tested guest-only and member-only dynamic rules. The guest group contained 2 users and the member group contained 68 users; the counts reconcile to 70.
-- Used tenant-specific group names and identities rather than the Microsoft sample names. The separate Office web-app sign-in checks in the sample instructions were not performed; licence inheritance was verified in Entra ID.
+- Used tenant-specific names: **Lami**, **Microsoft 365 E5**, **sec-001**, **sec-002**, **dynamic-001**, **dynamic guest-001**, and **dynamic member-001**. The separate Office web-app sign-in checks in the sample instructions were not performed; licence inheritance was verified in Entra ID.
 
 See the [Lab 03 implementation record](./Module-01-Identity-Management/Lab-03-assigning-licenses-using-group-membership/README.md). The 12-image redacted evidence ZIP has been prepared locally; upload and extraction into the lab's screenshots folder remain pending, so Lab 03 remains **Validated**, not Completed.
 
