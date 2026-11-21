@@ -23,16 +23,14 @@ A practical portfolio of 28 Microsoft SC-300-aligned labs covering identity mana
 
 Implemented and validated directory role administration, user lifecycle operations, bulk provisioning, and Microsoft Graph PowerShell workflows in the non-production tenant.
 
-| Exercise | Work completed | Evidence / notes |
-|---|---|---|
-| 1. Create a user and test baseline permissions | Created the Lami test identity, completed first sign-in, and verified standard-user restrictions on application creation. | Screenshots captured. |
-| 2. Assign Application Administrator | Assigned the role and verified the application-creation option became available. | Screenshots captured. |
-| 3. Remove the role | Removed the role and verified the restriction returned. | Screenshots captured. |
-| 4. Bulk import and Microsoft Graph | Bulk-created users using CSV; verified successful creation in audit logs. Installed/verified Microsoft Graph PowerShell, connected with delegated permissions, created Samuel, and verified profile attribute updates. | Screenshots captured. A separate update attempt against directory-synchronised accounts failed as expected because those attributes are mastered on-premises; no changes were made to those accounts. |
-| 5. Delete and restore a user | Deleted Lami and restored the account from Deleted users; verified it returned to All users. | Screenshots captured. |
-| 6. Assign a Windows Enterprise licence | Tenant licence availability was inspected and licence-selection work was performed during the exercise. The sample user Raul Razo was not present in this tenant, so the lab's exact sample-user validation could not be reproduced. | Do not describe this as a verified Raul Razo assignment. |
+- Used **Lami** to validate baseline permissions, Application Administrator assignment, elevated application-creation access, role removal, and restoration of the original restriction.
+- Completed bulk CSV user provisioning after correcting a UPN-domain issue; verified user-add events in Microsoft Entra audit logs.
+- Installed and authenticated Microsoft Graph PowerShell, queried users, created **Samuel Adeyemi**, and updated and verified profile attributes.
+- Investigated the source-of-authority restriction on directory-synchronized user attributes; no synchronized accounts were modified.
+- Deleted and restored Lami, confirming the account returned to All users.
+- Reviewed the Windows Enterprise E3 licence-selection workflow. A completed licence assignment is not claimed.
 
-**Progress note:** Exercises 1–5 have been validated with screenshots. Exercise 6 is documented as an environment-specific adaptation rather than claiming the original sample-user workflow was completed exactly.
+See the [project implementation record](./Module-01-Identity-Management/Lab-01-Manage-User-Roles/README.md) and [project evidence guide](./Module-01-Identity-Management/Lab-01-Manage-User-Roles/screenshots/README.md).
 
 ## Project — Microsoft Entra Tenant Configuration and Privacy Controls
 
