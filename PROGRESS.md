@@ -1,6 +1,6 @@
 # Lab Progress Tracker
 
-**Overall status:** 7 / 28 completed  
+**Overall status:** 6 / 28 completed  
 **Status definitions:** Planned → In Progress → Implemented → Validated → Completed
 
 A lab is counted as completed only after its implementation or documented adaptation has been tested and its evidence and findings documented in the repository.
@@ -14,7 +14,7 @@ A lab is counted as completed only after its implementation or documented adapta
 | 05 | Add Guest Users to the Directory | Completed |
 | 06 | Add a Federated Identity Provider | Completed |
 | 07 | Add Hybrid Identity with Microsoft Entra Connect | Planned |
-| 08 | Enable Multi-Factor Authentication | Completed (adapted implementation; see lab limitations) |
+| 08 | Enable Multi-Factor Authentication | Validated (adapted implementation; screenshot ZIP prepared, repository image upload pending) |
 | 09 | Enable Microsoft Entra Self-Service Password Reset | Planned |
 | 10 | Microsoft Entra ID Authentication for Windows and Linux Virtual Machines | Planned |
 | 11 | Assign Azure Resource Roles in Privileged Identity Management | Planned |
