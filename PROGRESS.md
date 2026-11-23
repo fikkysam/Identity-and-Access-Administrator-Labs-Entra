@@ -1,9 +1,9 @@
 # Lab Progress Tracker
 
-**Overall status:** 6 / 28 completed  
+**Overall status:** 7 / 28 completed  
 **Status definitions:** Planned → In Progress → Implemented → Validated → Completed
 
-A lab is counted as completed only after the configuration has been tested and its evidence and findings documented in the repository.
+A lab is counted as completed only after its implementation or documented adaptation has been tested and its evidence and findings documented in the repository.
 
 | Lab | Title | Status |
 |---:|---|---|
@@ -14,7 +14,7 @@ A lab is counted as completed only after the configuration has been tested and i
 | 05 | Add Guest Users to the Directory | Completed |
 | 06 | Add a Federated Identity Provider | Completed |
 | 07 | Add Hybrid Identity with Microsoft Entra Connect | Planned |
-| 08 | Enable Multi-Factor Authentication | Planned |
+| 08 | Enable Multi-Factor Authentication | Completed (adapted implementation; see lab limitations) |
 | 09 | Enable Microsoft Entra Self-Service Password Reset | Planned |
 | 10 | Microsoft Entra ID Authentication for Windows and Linux Virtual Machines | Planned |
 | 11 | Assign Azure Resource Roles in Privileged Identity Management | Planned |
@@ -37,11 +37,10 @@ A lab is counted as completed only after the configuration has been tested and i
 | 28 | Monitor and Manage Security Posture with Identity Secure Score | Planned |
 
 ## Completion criteria
-
 - [ ] Prerequisites and licensing checked
-- [ ] Implementation performed in the test environment
-- [ ] Expected behavior validated
-- [ ] Evidence captured and sensitive details redacted
-- [ ] Evidence published in the repository
-- [ ] Troubleshooting and lessons learned documented
-- [ ] Lab README updated and status changed to Completed
+- [x] Implementation or documented adaptation performed
+- [x] Authentication behavior validated
+- [x] Evidence captured and sensitive details redacted
+- [x] Evidence published in the repository
+- [x] Troubleshooting, limitations, and lessons learned documented
+- [x] Lab README updated and status changed to Completed
