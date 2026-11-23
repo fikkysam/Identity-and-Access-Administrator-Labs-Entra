@@ -1,41 +1,76 @@
-# Lab 08 – Enable Multi-Factor Authentication
+# Lab 08 – Enable Multi-Factor Authentication (MFA)
 
 **Module:** Authentication and Access  
-**Status:** Planned
+**Status:** Completed (adapted implementation)  
+**Test identity:** Lami — `lami@fikayo.onmicrosoft.com`  
+**Authentication method observed:** Microsoft Authenticator push notification with number matching  
+**Application validated:** Outlook on the web
 
 ## Objective
+Review Microsoft Entra MFA configuration, inspect existing Conditional Access and per-user MFA enforcement, and validate an MFA-protected Microsoft 365 sign-in.
 
-Complete the Microsoft Learning exercise and document the actual configuration, validation results, and observations.
+[Official Microsoft SC-300 Lab 08 instructions](https://microsoftlearning.github.io/SC-300-Identity-and-Access-Administrator/Instructions/Labs/Lab_08_EnableAzureADMultiFactorAuthentication.html)
 
-## Official instructions
+## Implementation and observations
 
-[Open the Microsoft lab instructions](https://microsoftlearning.github.io/SC-300-Identity-and-Access-Administrator/Instructions/Labs/Lab_08_EnableAzureADMultiFactorAuthentication.html)
+### 1. Legacy MFA service settings
+Reviewed the per-user MFA **Service settings** page.
 
-## Prerequisites
+Observed:
+- App passwords were allowed.
+- The federated-intranet MFA bypass checkbox was not selected.
+- No trusted IP subnet was entered.
+- The page indicated that legacy verification options had migrated to Authentication methods.
 
-Review the official instructions for required roles, licenses, subscriptions, test identities, and environment setup before making changes.
+No service settings were changed.
 
-## Implementation
+### 2. Existing Conditional Access policy
+Inspected the pre-existing policy named **MFA for all users**.
 
-_To be completed during the hands-on exercise. Record the actual steps performed; do not copy unverified outcomes._
+Observed:
+- State: On.
+- Users: All users, with one excluded identity.
+- Target resources: All resources.
+- Grant requirement: Require multifactor authentication.
+- Network: Not configured.
 
-## Validation
+This policy pre-existed the exercise. It was inspected, not newly created. The separate policy in the original Microsoft exercise (`MFA_for_Delia`) was not created because the tenant already had a broader MFA policy and the exercise was adapted to avoid duplicating or changing live security controls.
 
-_Record test cases, expected results, actual results, and any limitations._
+### 3. Per-user MFA
+Inspected the legacy per-user MFA Users page. The selected test identity, Lami, showed **Enforced** before sign-in testing. The status was not changed.
+
+### 4. Authentication validation
+Signed in as Lami and observed:
+1. Microsoft sign-in displayed an **Approve sign in request** prompt.
+2. The prompt instructed the user to open Microsoft Authenticator and enter the displayed number if requested.
+3. The sign-in was approved in Authenticator.
+4. Outlook on the web loaded for Lami.
+
+**Result:** Successful MFA-protected sign-in and Outlook access.
+
+The test demonstrates that an MFA challenge occurred and that access followed successful approval. Because both per-user MFA and Conditional Access MFA were present, this test does not isolate which enforcement mechanism independently caused the prompt.
+
+## Key IAM findings
+- Per-user MFA and Conditional Access are distinct enforcement mechanisms.
+- Disabling per-user MFA does not disable an applicable Conditional Access requirement.
+- Excluding a user from one Conditional Access policy does not exclude them from other applicable policies or security controls.
+- Number matching adds a user-verification step to Authenticator push approval.
+- Existing tenant security controls should be inspected before creating duplicate policies or changing enforcement.
+
+## Adaptations and limitations
+- Used Lami instead of the sample identities Delia Dennis and Adele Vance.
+- Reviewed the existing organization-wide Conditional Access policy instead of creating `MFA_for_Delia`.
+- Inspected Lami's existing per-user MFA status instead of changing it.
+- The sign-in test was performed in the existing tenant configuration; it did not independently attribute the prompt to one of the overlapping MFA mechanisms.
 
 ## Evidence
-
-Save redacted screenshots in a `screenshots/` subfolder. Do not publish secrets, tokens, recovery codes, or unnecessary personal or tenant identifiers.
-
-## Troubleshooting and lessons learned
-
-_Document errors, root causes, resolutions, and key takeaways._
+See the [screenshots](screenshots/README.md) folder for the redacted evidence set.
 
 ## Completion checklist
-
-- [ ] Prerequisites checked
-- [ ] Implementation performed
-- [ ] Validation completed
-- [ ] Evidence captured and redacted
-- [ ] Findings documented
-- [ ] Progress tracker updated
+- [x] Reviewed legacy MFA service settings
+- [x] Inspected existing Conditional Access MFA policy
+- [x] Inspected test user's per-user MFA status
+- [x] Triggered and completed Authenticator number-matching challenge
+- [x] Verified successful Outlook access
+- [x] Documented adaptations, observations, and limitations
+- [x] Captured and redacted screenshots
