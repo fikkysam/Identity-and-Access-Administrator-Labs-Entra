@@ -1,7 +1,7 @@
 # Lab 12 – Manage Microsoft Entra Smart Lockout Values
 
 **Module:** Authentication and Access  
-**Status:** Implemented – configuration and temporary lockout observed; repository evidence publication pending
+**Status:** Implemented – configuration and temporary lockout observed; sign-in log review and repository evidence publication pending
 
 ## Objective
 
@@ -68,6 +68,7 @@ Capture and upload redacted screenshots showing:
 1. Password protection settings with threshold, duration, and mode.
 2. The temporary lockout message for the test identity.
 3. Subsequent access after the temporary lockout.
+4. Entra sign-in log entries for the failed attempts and subsequent successful sign-in (once the records become available).
 
 **Repository evidence status:** Screenshots were shared during the working session, but PNG files have not yet been confirmed in this lab's GitHub `screenshots/` folder. Upload the redacted image files before marking the lab fully completed.
 
@@ -78,5 +79,6 @@ Capture and upload redacted screenshots showing:
 - [x] Temporary lockout behaviour observed
 - [x] Operational response and security implications documented
 - [ ] Redacted screenshot evidence uploaded to GitHub
+- [ ] Sign-in log review completed (records may take time to appear)
 - [ ] Evidence links verified
-- [ ] Progress tracker updated to Completed after evidence publication
+- [ ] Progress tracker updated to Completed after evidence publication and validation
