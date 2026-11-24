@@ -1,6 +1,6 @@
 # Lab Progress Tracker
 
-**Overall status:** 8 / 28 completed  
+**Overall status:** 9 / 28 completed  
 **Status definitions:** Planned → In Progress → Implemented → Validated → Completed
 
 A lab is counted as completed after its implementation or documented adaptation has been tested and its evidence and findings documented in the repository.
@@ -18,7 +18,7 @@ A lab is counted as completed after its implementation or documented adaptation 
 | 09 | Enable Microsoft Entra Self-Service Password Reset | Completed (selected-group scope; Lami reset and post-reset sign-in validated) |
 | 10 | Microsoft Entra ID Authentication for Windows and Linux Virtual Machines | Planned |
 | 11 | Assign Azure Resource Roles in Privileged Identity Management | Planned |
-| 12 | Manage Microsoft Entra Smart Lockout Values | Implemented (threshold 5, duration 120 seconds, Enforced; temporary lockout observed; sign-in logs show failures with error 50053 and subsequent success; redacted GitHub screenshot evidence pending) |
+| 12 | Manage Microsoft Entra Smart Lockout Values | Completed (threshold 5, duration 120 seconds, Enforced; temporary lockout observed; sign-in logs reviewed; redacted screenshot evidence published) |
 | 13 | Implement and Test a Conditional Access Policy | Planned |
 | 14 | Configure User Risk and Sign-in Risk Conditional Access Policies | Planned |
 | 15 | Configure a Multifactor Authentication Registration Policy | Planned |
@@ -39,4 +39,4 @@ A lab is counted as completed after its implementation or documented adaptation 
 ## Evidence publication
 - Lab 09 screenshot evidence ZIP prepared locally.
 - Lab 09 screenshot index published; PNG binaries still need to be uploaded to GitHub.
-- Lab 12 settings and temporary lockout were observed during the hands-on session. Redacted PNG evidence still needs to be uploaded and verified before Lab 12 can be marked Completed.
+- Lab 12 redacted screenshot evidence is published in the lab's `screenshots/` folder; README and evidence checklist updated.
