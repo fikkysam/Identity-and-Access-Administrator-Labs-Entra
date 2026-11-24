@@ -1,6 +1,6 @@
 # Lab Progress Tracker
 
-**Overall status:** 9 / 28 completed  
+**Overall status:** 9 / 26 completed  
 **Status definitions:** Planned → In Progress → Implemented → Validated → Completed
 
 A lab is counted as completed after its implementation or documented adaptation has been tested and its evidence and findings documented in the repository.
@@ -16,8 +16,6 @@ A lab is counted as completed after its implementation or documented adaptation 
 | 07 | Add Hybrid Identity with Microsoft Entra Connect | Planned |
 | 08 | Enable Multi-Factor Authentication | Completed (adapted implementation; Lami tested with Authenticator number matching) |
 | 09 | Enable Microsoft Entra Self-Service Password Reset | Completed (selected-group scope; Lami reset and post-reset sign-in validated) |
-| 10 | Microsoft Entra ID Authentication for Windows and Linux Virtual Machines | Planned |
-| 11 | Assign Azure Resource Roles in Privileged Identity Management | Planned |
 | 12 | Manage Microsoft Entra Smart Lockout Values | Completed (threshold 5, duration 120 seconds, Enforced; temporary lockout observed; sign-in logs reviewed; redacted screenshot evidence published) |
 | 13 | Implement and Test a Conditional Access Policy | Planned |
 | 14 | Configure User Risk and Sign-in Risk Conditional Access Policies | Planned |
