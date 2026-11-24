@@ -1,9 +1,9 @@
 # Lab Progress Tracker
 
-**Overall status:** 6 / 28 completed  
+**Overall status:** 8 / 28 completed  
 **Status definitions:** Planned → In Progress → Implemented → Validated → Completed
 
-A lab is counted as completed only after its implementation or documented adaptation has been tested and its evidence and findings documented in the repository.
+A lab is counted as completed after its implementation or documented adaptation has been tested and its evidence and findings documented in the repository.
 
 | Lab | Title | Status |
 |---:|---|---|
@@ -14,8 +14,8 @@ A lab is counted as completed only after its implementation or documented adapta
 | 05 | Add Guest Users to the Directory | Completed |
 | 06 | Add a Federated Identity Provider | Completed |
 | 07 | Add Hybrid Identity with Microsoft Entra Connect | Planned |
-| 08 | Enable Multi-Factor Authentication | Validated (adapted implementation; screenshot ZIP prepared, repository image upload pending) |
-| 09 | Enable Microsoft Entra Self-Service Password Reset | Planned |
+| 08 | Enable Multi-Factor Authentication | Completed (adapted implementation; Lami tested with Authenticator number matching) |
+| 09 | Enable Microsoft Entra Self-Service Password Reset | Completed (selected-group scope; Lami reset and post-reset sign-in validated) |
 | 10 | Microsoft Entra ID Authentication for Windows and Linux Virtual Machines | Planned |
 | 11 | Assign Azure Resource Roles in Privileged Identity Management | Planned |
 | 12 | Manage Microsoft Entra Smart Lockout Values | Planned |
@@ -36,11 +36,6 @@ A lab is counted as completed only after its implementation or documented adapta
 | 27 | Microsoft Sentinel Kusto Queries for Microsoft Entra Data Sources | Planned |
 | 28 | Monitor and Manage Security Posture with Identity Secure Score | Planned |
 
-## Completion criteria
-- [ ] Prerequisites and licensing checked
-- [x] Implementation or documented adaptation performed
-- [x] Authentication behavior validated
-- [x] Evidence captured and sensitive details redacted
-- [x] Evidence published in the repository
-- [x] Troubleshooting, limitations, and lessons learned documented
-- [x] Lab README updated and status changed to Completed
+## Evidence publication
+- Lab 09 screenshot evidence ZIP prepared locally.
+- Lab 09 screenshot index published; PNG binaries still need to be uploaded to GitHub.
