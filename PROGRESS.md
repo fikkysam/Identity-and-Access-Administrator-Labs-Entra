@@ -18,7 +18,7 @@ A lab is counted as completed after its implementation or documented adaptation 
 | 09 | Enable Microsoft Entra Self-Service Password Reset | Completed (selected-group scope; Lami reset and post-reset sign-in validated) |
 | 10 | Microsoft Entra ID Authentication for Windows and Linux Virtual Machines | Planned |
 | 11 | Assign Azure Resource Roles in Privileged Identity Management | Planned |
-| 12 | Manage Microsoft Entra Smart Lockout Values | Implemented (threshold 5, duration 120 seconds, Enforced; temporary lockout observed; sign-in log review and GitHub screenshot evidence pending) |
+| 12 | Manage Microsoft Entra Smart Lockout Values | Implemented (threshold 5, duration 120 seconds, Enforced; temporary lockout observed; interactive sign-in logs show failed attempts followed by success; redacted GitHub screenshot evidence pending) |
 | 13 | Implement and Test a Conditional Access Policy | Planned |
 | 14 | Configure User Risk and Sign-in Risk Conditional Access Policies | Planned |
 | 15 | Configure a Multifactor Authentication Registration Policy | Planned |
