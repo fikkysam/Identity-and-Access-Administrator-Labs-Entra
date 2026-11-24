@@ -15,9 +15,9 @@ A practical portfolio of 26 Microsoft SC-300-aligned labs covering identity mana
 | Module | Focus | Labs |
 |---|---|---:|
 | [01 – Identity Management](./Module-01-Identity-Management/) | Roles, tenant properties, licensing, collaboration, guests, federation, hybrid identity | 01–07 |
-| [02 – Authentication and Access](./Module-02-Authentication-and-Access/) | MFA, SSPR, smart lockout, Conditional Access, risk, managed identities | 08–09, 12–16 |
-| [03 – Application Access](./Module-03-Application-Access/) | Defender for Cloud Apps, app registration, application access and consent | 17–21 |
-| [04 – Identity Governance](./Module-04-Identity-Governance/) | Entitlement management, Terms of Use, lifecycle, access reviews, PIM, Sentinel, Secure Score | 22–28 |
+| [02 – Authentication and Access](./Module-02-Authentication-and-Access/) | MFA, SSPR, smart lockout, Conditional Access, risk, managed identities | 08–14 |
+| [03 – Application Access](./Module-03-Application-Access/) | Defender for Cloud Apps, app registration, application access and consent | 15–19 |
+| [04 – Identity Governance](./Module-04-Identity-Governance/) | Entitlement management, Terms of Use, lifecycle, access reviews, PIM, Sentinel, Secure Score | 20–26 |
 
 ## Project — Privileged Role Assignment and User Lifecycle Management
 

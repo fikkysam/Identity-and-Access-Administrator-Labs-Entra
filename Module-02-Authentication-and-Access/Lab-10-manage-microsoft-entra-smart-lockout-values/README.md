@@ -1,4 +1,4 @@
-# Lab 12 – Manage Microsoft Entra Smart Lockout Values
+# Lab 10 – Manage Microsoft Entra Smart Lockout Values
 
 **Module:** Authentication and Access  
 **Status:** Completed – configuration, temporary lockout behaviour, sign-in review, and screenshot evidence published

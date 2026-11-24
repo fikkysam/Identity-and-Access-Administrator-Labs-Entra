@@ -16,23 +16,23 @@ A lab is counted as completed after its implementation or documented adaptation 
 | 07 | Add Hybrid Identity with Microsoft Entra Connect | Planned |
 | 08 | Enable Multi-Factor Authentication | Completed (adapted implementation; Lami tested with Authenticator number matching) |
 | 09 | Enable Microsoft Entra Self-Service Password Reset | Completed (selected-group scope; Lami reset and post-reset sign-in validated) |
-| 12 | Manage Microsoft Entra Smart Lockout Values | Completed (threshold 5, duration 120 seconds, Enforced; temporary lockout observed; sign-in logs reviewed; redacted screenshot evidence published) |
-| 13 | Implement and Test a Conditional Access Policy | Planned |
-| 14 | Configure User Risk and Sign-in Risk Conditional Access Policies | Planned |
-| 15 | Configure a Multifactor Authentication Registration Policy | Planned |
-| 16 | Using Azure Key Vault for Managed Identities | Planned |
-| 17 | Defender for Cloud Apps Application Discovery and Enforcing Restrictions | Planned |
-| 18 | Defender for Cloud Apps Access Policies | Planned |
-| 19 | Register an Application | Planned |
-| 20 | Implement Access Management for Apps | Planned |
-| 21 | Grant Tenant-Wide Admin Consent to an Application | Planned |
-| 22 | Create and Manage a Catalog of Resources in Microsoft Entra Entitlement Management | Planned |
-| 23 | Add Terms of Use and Acceptance Reporting | Planned |
-| 24 | Manage the Lifecycle of External Users in Microsoft Entra Identity Governance Settings | Planned |
-| 25 | Creating Access Reviews for Internal and External Users | Planned |
-| 26 | Configure Privileged Identity Management for Microsoft Entra Roles | Planned |
-| 27 | Microsoft Sentinel Kusto Queries for Microsoft Entra Data Sources | Planned |
-| 28 | Monitor and Manage Security Posture with Identity Secure Score | Planned |
+| 10 | Manage Microsoft Entra Smart Lockout Values | Completed (threshold 5, duration 120 seconds, Enforced; temporary lockout observed; sign-in logs reviewed; redacted screenshot evidence published) |
+| 11 | Implement and Test a Conditional Access Policy | Planned |
+| 12 | Configure User Risk and Sign-in Risk Conditional Access Policies | Planned |
+| 13 | Configure a Multifactor Authentication Registration Policy | Planned |
+| 14 | Using Azure Key Vault for Managed Identities | Planned |
+| 15 | Defender for Cloud Apps Application Discovery and Enforcing Restrictions | Planned |
+| 16 | Defender for Cloud Apps Access Policies | Planned |
+| 17 | Register an Application | Planned |
+| 18 | Implement Access Management for Apps | Planned |
+| 19 | Grant Tenant-Wide Admin Consent to an Application | Planned |
+| 20 | Create and Manage a Catalog of Resources in Microsoft Entra Entitlement Management | Planned |
+| 21 | Add Terms of Use and Acceptance Reporting | Planned |
+| 22 | Manage the Lifecycle of External Users in Microsoft Entra Identity Governance Settings | Planned |
+| 23 | Creating Access Reviews for Internal and External Users | Planned |
+| 24 | Configure Privileged Identity Management for Microsoft Entra Roles | Planned |
+| 25 | Microsoft Sentinel Kusto Queries for Microsoft Entra Data Sources | Planned |
+| 26 | Monitor and Manage Security Posture with Identity Secure Score | Planned |
 
 ## Evidence publication
 - Lab 09 screenshot evidence ZIP prepared locally.

@@ -1,6 +1,6 @@
 # Module 04 – Plan and Implement an Identity Governance Strategy
 
-**Labs:** 22–28
+**Labs:** 20–26
 
 This module covers entitlement management catalogs, Terms of Use, external user lifecycle, access reviews, PIM for Microsoft Entra roles, Microsoft Sentinel Kusto queries, and Identity Secure Score.
 
