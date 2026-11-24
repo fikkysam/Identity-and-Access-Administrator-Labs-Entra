@@ -1,7 +1,7 @@
 # Lab 12 – Manage Microsoft Entra Smart Lockout Values
 
 **Module:** Authentication and Access  
-**Status:** Implemented – configuration and temporary lockout observed; sign-in log review and repository evidence publication pending
+**Status:** Completed – configuration, temporary lockout behaviour, sign-in review, and screenshot evidence published
 
 ## Objective
 
@@ -41,7 +41,7 @@ Saved the Smart Lockout configuration using the portal's **Save** action.
 | Review tenant Smart Lockout settings | Threshold 5, duration 120 seconds, Enforced mode | Values were visible in the Password protection page |
 | Attempt sign-in with repeated incorrect passwords using Lami | Temporary lockout message appears | Microsoft sign-in page displayed: “Your account is temporarily locked to prevent unauthorized use. Try again later.” |
 | Access the tenant after the temporary lockout | Access becomes available after the lockout period | A subsequent Azure Portal interactive sign-in for Lami shows Success at 2026-11-24 06:08:07 UTC, after the failed sign-ins shown below |
-| Review interactive sign-in events | Failed attempts are followed by a successful sign-in after access is restored | The screenshot shows five visible failed Azure Portal interactive sign-ins between 06:04:54 and 06:05:05 UTC, followed by a Success at 06:08:07 UTC. The event details were not opened, so the exact failure reason and causal link to Smart Lockout are not confirmed |
+| Review interactive sign-in events | Failed attempts are followed by a successful sign-in after access is restored | Five visible failed Azure Portal interactive sign-ins between 06:04:54 and 06:05:05 UTC, followed by a Success at 06:08:07 UTC. The event details were not opened, so the exact failure reason and causal link to Smart Lockout are not confirmed |
 | Confirm exact trigger count and duration | Logs or controlled timing confirm the precise threshold and timer | Not independently measured; the lockout message and event sequence support the test, but do not prove that exactly five attempts caused the lockout or that the timer lasted precisely 120 seconds |
 
 **Validation limitation:** Smart Lockout uses detection logic, so the observed lockout message alone does not prove that exactly five attempts caused the lockout or that the timer lasted precisely 120 seconds. Do not deliberately repeat failed attempts against administrator or production accounts.
@@ -65,13 +65,14 @@ Saved the Smart Lockout configuration using the portal's **Save** action.
 
 ## Evidence
 
-Capture and upload redacted screenshots showing:
-1. Password protection settings with threshold, duration, and mode.
-2. The temporary lockout message for the test identity.
-3. Subsequent access after the temporary lockout.
-4. Entra sign-in events showing the failed attempts and subsequent successful sign-in (reviewed; retain a redacted screenshot in the repository evidence folder).
+Redacted screenshot evidence has been uploaded to this lab's GitHub `screenshots/` folder:
 
-**Repository evidence status:** Screenshots were shared during the working session, but PNG files have not yet been confirmed in this lab's GitHub `screenshots/` folder. Upload the redacted image files before marking the lab fully completed.
+1. Password protection settings with threshold, duration, and mode.
+2. Temporary lockout message for the test identity.
+3. Subsequent access after the temporary lockout.
+4. Entra sign-in events showing the failed attempts and subsequent successful sign-in.
+
+[Open the Lab 12 screenshot evidence folder](./screenshots/)
 
 ## Completion checklist
 
@@ -79,7 +80,6 @@ Capture and upload redacted screenshots showing:
 - [x] Smart Lockout settings reviewed/configured
 - [x] Temporary lockout behaviour observed
 - [x] Operational response and security implications documented
-- [ ] Redacted screenshot evidence uploaded to GitHub
+- [x] Redacted screenshot evidence uploaded to GitHub
 - [x] Interactive sign-in events reviewed; failed attempts and a subsequent successful sign-in observed
-- [ ] Evidence links verified
-- [ ] Progress tracker updated to Completed after evidence publication and validation
+- [x] Evidence folder linked from this README
