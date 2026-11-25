@@ -1,7 +1,7 @@
 # Lab 12 – Configure User Risk and Sign-in Risk Conditional Access Policies
 
 **Module:** 02 – Authentication and Access  
-**Status:** Implemented; risk-based enforcement validation is pending a genuine high-risk event  
+**Status:** In Progress — policies configured; validation against a genuine high-risk event is pending  
 **Environment:** Non-production Microsoft Entra tenant
 
 ## Objective
