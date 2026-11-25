@@ -1,4 +1,4 @@
-# Lab 16 – Using Azure Key Vault for Managed Identities
+# Lab 14 – Using Azure Key Vault for Managed Identities
 
 **Module:** Authentication and Access  
 **Status:** Planned
