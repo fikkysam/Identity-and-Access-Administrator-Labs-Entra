@@ -1,4 +1,4 @@
-# Lab 14 – Configure User Risk and Sign-in Risk Conditional Access Policies
+# Lab 12 – Configure User Risk and Sign-in Risk Conditional Access Policies
 
 **Module:** Authentication and Access  
 **Status:** Planned
