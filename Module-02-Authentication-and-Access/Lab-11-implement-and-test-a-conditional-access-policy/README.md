@@ -49,11 +49,11 @@ The evaluation listed the Sway blocking policy under **Policies that will apply*
 
 ## Exercise 3 – Configure sign-in frequency
 
-Created a separate Conditional Access policy with these settings:
+Created a separate Conditional Access policy with these settings. The policy was named `sign in frequencyyyy` in the tenant:
 
 | Setting | Configuration |
 |---|---|
-| Policy name | Sign in frequency |
+| Policy name | `sign in frequencyyyy` (actual tenant display name) |
 | Included user | Lami |
 | Target resource | Office 365 |
 | Session control | Sign-in frequency |
