@@ -1,6 +1,6 @@
 # Lab Progress Tracker
 
-**Overall status:** 9 / 26 completed  
+**Overall status:** 10 / 26 completed  
 **Status definitions:** Planned → In Progress → Implemented → Validated → Completed
 
 A lab is counted as completed after its implementation or documented adaptation has been tested and its evidence and findings documented in the repository.
@@ -17,7 +17,7 @@ A lab is counted as completed after its implementation or documented adaptation 
 | 08 | Enable Multi-Factor Authentication | Completed (adapted implementation; Lami tested with Authenticator number matching) |
 | 09 | Enable Microsoft Entra Self-Service Password Reset | Completed (selected-group scope; Lami reset and post-reset sign-in validated) |
 | 10 | Manage Microsoft Entra Smart Lockout Values | Completed (threshold 5, duration 120 seconds, Enforced; temporary lockout observed; sign-in logs reviewed; redacted screenshot evidence published) |
-| 11 | Implement and Test a Conditional Access Policy | Planned |
+| 11 | Implement and Test a Conditional Access Policy | Completed (Sway block test, What If evaluation, and 30-day Report-only sign-in frequency; Lami substituted for unavailable Grady Archie) |
 | 12 | Configure User Risk and Sign-in Risk Conditional Access Policies | Planned |
 | 13 | Configure a Multifactor Authentication Registration Policy | Planned |
 | 14 | Using Azure Key Vault for Managed Identities | Planned |
