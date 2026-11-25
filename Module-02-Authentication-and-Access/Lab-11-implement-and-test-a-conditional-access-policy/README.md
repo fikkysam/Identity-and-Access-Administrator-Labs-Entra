@@ -1,4 +1,4 @@
-# Lab 13 – Implement and Test a Conditional Access Policy
+# Lab 11 – Implement and Test a Conditional Access Policy
 
 **Module:** Authentication and Access  
 **Status:** Planned
