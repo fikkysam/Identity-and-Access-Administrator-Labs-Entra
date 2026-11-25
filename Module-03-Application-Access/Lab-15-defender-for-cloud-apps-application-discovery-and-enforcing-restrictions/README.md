@@ -1,4 +1,4 @@
-# Lab 17 – Defender for Cloud Apps Application Discovery and Enforcing Restrictions
+# Lab 15 – Defender for Cloud Apps Application Discovery and Enforcing Restrictions
 
 **Module:** Application Access  
 **Status:** Planned
