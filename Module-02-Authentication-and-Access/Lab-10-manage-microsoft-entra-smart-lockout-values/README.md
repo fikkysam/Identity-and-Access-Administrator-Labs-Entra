@@ -72,7 +72,7 @@ Redacted screenshot evidence has been uploaded to this lab's GitHub `screenshots
 3. Subsequent access after the temporary lockout.
 4. Entra sign-in events showing the failed attempts and subsequent successful sign-in.
 
-[Open the Lab 12 screenshot evidence folder](./screenshots/)
+[Open the Lab 10 screenshot evidence folder](./screenshots/)
 
 ## Completion checklist
 
