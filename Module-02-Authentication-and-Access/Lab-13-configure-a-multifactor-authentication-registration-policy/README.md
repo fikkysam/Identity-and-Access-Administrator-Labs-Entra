@@ -1,4 +1,4 @@
-# Lab 15 – Configure a Multifactor Authentication Registration Policy
+# Lab 13 – Configure a Multifactor Authentication Registration Policy
 
 **Module:** Authentication and Access  
 **Status:** Planned
