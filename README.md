@@ -2,7 +2,7 @@
 
 A practical portfolio of 26 Microsoft SC-300-aligned labs covering identity management, authentication and access management, application access, and identity governance.
 
-> This repository is dedicated to the 28-lab collection and is independent of the separate Conditional Access policy portfolio.
+> This repository is dedicated to the 26-lab collection and is independent of the separate Conditional Access policy portfolio.
 
 ## Learning objectives
 - Administer Microsoft Entra identities, directory roles, tenant settings, guests, and hybrid identity.
