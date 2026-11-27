@@ -1,15 +1,14 @@
-# Lab 11 — Screenshot Evidence
+# Lab 11 — Verified Screenshot Evidence
 
-Five screenshots are retained in the required evidence set. They cover all three exercises without unnecessary duplicates.
+Six screenshots are retained to document the three exercises and the sign-in-log check.
 
-| Screenshot | Exercise | Evidence |
-|---|---|---|
-| [01-sway-baseline.png](./01-sway-baseline.png) | 1 — Block Sway | Confirms Sway was accessible before the restriction. |
-| [02-block-access-configuration.png](./02-block-access-configuration.png) | 1 — Block Sway | Shows the Conditional Access policy configured with the **Block access** grant control. |
-| [03-what-if-inputs.png](./03-what-if-inputs.png) | 2 — What If | Shows the user and sign-in context entered into What If. |
-| [04-what-if-block-policy-applies.png](./04-what-if-block-policy-applies.png) | 2 — What If | Shows the evaluation result and the applicable Block access policy. |
-| [05-sign-in-frequency-policy.png](./05-sign-in-frequency-policy.png) | 3 — Sign-in frequency | Shows the 30-day sign-in frequency session control and **Report-only** policy state. |
+- **01-sway-baseline.png** — Exercise 1: confirms Sway was accessible before the restriction.
+- **02-block-access-configuration.png** — Exercise 1: shows the Block access grant control in the Sway policy configuration.
+- **03-what-if-inputs.png** — Exercise 2: records the What If evaluation inputs.
+- **04-what-if-block-policy-applies.png** — Exercise 2: records the What If result showing the Sway block policy applies.
+- **05-sign-in-frequency-policy.png** — Exercise 3: shows the 30-day sign-in frequency session control and Report-only mode.
+- **07-sign-in-activity.png** — Supporting verification: shows the sign-in log's Conditional access tab listing the sign-in frequency policy and its result as Disabled.
 
-The extra policy-creation and sign-in activity screenshots were excluded because they do not provide essential evidence beyond the five retained images.
+**Interpretation:** The Disabled result is consistent with a Report-only policy: it is evaluated for reporting but does not enforce the session control. This screenshot demonstrates that the policy is visible in the sign-in record; it does not demonstrate an enforced 30-day reauthentication event.
 
-**Upload note:** The matching five image files are packaged in the accompanying `Lab-11-Required-Screenshots.zip`. Extract them into this folder so the links above resolve.
+The draft screenshot `06-sign-in-frequency-settings.png` was excluded because it shows an unfinished policy-creation screen and does not prove the saved 30-day configuration. `08-sign-in-activity-details.png` was excluded because it duplicates the policy listing without adding a clearer result than screenshot 07.
