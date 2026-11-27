@@ -1,7 +1,7 @@
 # Lab 13 – Configure a Multifactor Authentication Registration Policy
 
 **Module:** Authentication and Access  
-**Status:** In Progress — configuration completed; sign-in log verification pending
+**Status:** In Progress — configuration and sign-in log verification completed; repository evidence upload and final review pending
 
 ## Objective
 
@@ -58,7 +58,14 @@ The Outlook landing-page screenshot alone does not prove which control caused th
 
 ### Sign-in log verification
 
-**Pending.** Review the corresponding Entra sign-in event and its **Conditional Access** details to confirm the policy evaluation and result. Add the observed result here after the event is available; do not infer the sign-in log outcome from the Outlook landing page.
+**Verified in Microsoft Entra sign-in logs.** The interactive sign-in event for `lami@fikayo.onmicrosoft.com` shows:
+
+- The **Conditional Access** tab lists the policy `mfa policy`.
+- The policy's grant control is **Mfa** and its result is **Success**.
+- The authentication details show **Authentication requirement: Multifactor authentication** and **Status: Success**.
+- The additional details state: **MFA requirement satisfied by claim in the token**.
+
+This confirms that the sign-in was evaluated against the `mfa policy` and that Entra recorded the MFA requirement as successfully satisfied. The token-claim detail means the event records the MFA requirement as satisfied by a claim in the token; it does not necessarily mean a fresh Authenticator prompt occurred during that exact event. The separate Authenticator approval screenshot documents the observed challenge.
 
 ## Evidence
 
@@ -68,7 +75,8 @@ Capture and store redacted screenshots in the `screenshots/` subfolder:
 - Conditional Access policy showing the MFA grant control and final policy state.
 - Microsoft Authenticator approval challenge (redact transient number-matching codes).
 - Successful Outlook access after authentication.
-- Entra sign-in event showing the Conditional Access evaluation and result (**pending**).
+- Entra sign-in event showing `mfa policy` with grant control `Mfa` and result `Success`.
+- Authentication details showing multifactor authentication requirement and successful status.
 
 Do not publish passwords, tokens, recovery codes, transient number-matching codes, or unnecessary personal or tenant identifiers.
 
@@ -76,7 +84,8 @@ Do not publish passwords, tokens, recovery codes, transient number-matching code
 
 - MFA registration and MFA enforcement are separate controls. The registration policy requires users in scope to register; Conditional Access can require MFA during access.
 - A user reaching the Authenticator approval screen demonstrates an MFA challenge, while successful Outlook access demonstrates completion of the sign-in flow.
-- The sign-in event's Conditional Access details are still required to attribute the MFA requirement to the intended Conditional Access policy.
+- The sign-in event's Conditional Access details identified `mfa policy` and recorded its result as `Success`.
+- The authentication details recorded the MFA requirement as satisfied by a claim in the token; this should not be misrepresented as proof of a fresh Authenticator prompt in that same event.
 
 ## Completion checklist
 
@@ -84,7 +93,7 @@ Do not publish passwords, tokens, recovery codes, transient number-matching code
 - [x] Conditional Access MFA policy configured
 - [x] Microsoft Authenticator MFA challenge observed
 - [x] Successful Outlook access after authentication observed
-- [ ] Corresponding sign-in log reviewed and Conditional Access result recorded
+- [x] Corresponding sign-in log reviewed; `mfa policy` result recorded as Success
 - [ ] Evidence screenshots uploaded to the repository and redacted
 - [ ] Findings documented and final review completed
 - [ ] Progress tracker updated
