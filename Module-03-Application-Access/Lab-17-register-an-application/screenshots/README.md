@@ -1,21 +1,21 @@
 # Lab 17 – Screenshot Evidence Index
 
-The portal screenshots below were reviewed during the guided implementation. Before publishing image files, redact tenant identifiers and any sensitive credential material that is visible. Never publish a client-secret value.
+The following nine redacted evidence images are included in the locally prepared ZIP archive **Lab-17-Application-Registration-Evidence-Redacted.zip**. The PNG files have not yet been uploaded to this GitHub folder.
 
-## Evidence to add
+| File | Evidence |
+|---|---|
+| `01-demo-app-registration.png` | New application registration form for Demo app |
+| `02-demo-app-overview.png` | Registered Demo app overview |
+| `03-web-redirect-uri-configured.png` | Web platform redirect URI `https://localhost` |
+| `04-client-secret-creation-settings.png` | Client-secret description and 90-day expiry settings |
+| `05-client-secret-created-REDACTED.png` | Created client secret; the entire Value cell is covered by an opaque redaction |
+| `06-api-scopes-configured.png` | Expose an API page showing both enabled delegated scopes |
+| `07-custom-role-permissions-selected.png` | The two selected custom-role permissions |
+| `08-custom-role-review.png` | Review page for My custom app role |
+| `09-custom-role-created.png` | Custom role visible in Microsoft Entra ID roles |
 
-. App registration overview showing **Demo app** and single-tenant configuration; redact tenant and application identifiers if desired.
+## Security
 
-. Authentication page showing the Web redirect URI `https://localhost`.
-
-. Certificates & secrets page showing the client secret description and expiration, with the entire **Value** column obscured. Do not include the secret value.
-
-. Expose an API page showing the retained application ID URI and the **Employees.Read.All** and **Employees.Write.All** scopes.
-
-. Custom role review page showing the two selected permissions.
-
-. Microsoft Entra ID roles list showing **My custom app role** was created.
-
-## Publication status
-
-The evidence was reviewed in the conversation, but the redacted PNG files have not yet been uploaded to this folder. Add only sanitized screenshots. The README for the lab records the tenant policy exception for the requested Application ID URI.
+. The client-secret value is fully obscured in screenshot 05; do not remove the redaction before publishing.
+. Never publish secret values, passwords, access tokens, or recovery codes.
+. The secret identifier is not the secret value, but review all images before public release.
