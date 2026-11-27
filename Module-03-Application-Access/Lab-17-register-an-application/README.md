@@ -1,7 +1,7 @@
 # Lab 17 – Register an Application and Manage App Registrations with a Custom Role
 
 **Module:** Application Access  
-**Status:** Implemented and portal-validated; repository evidence publication pending
+**Status:** Implemented and portal-validated; redacted screenshot ZIP prepared; GitHub image upload pending
 
 ## Objective
 
@@ -70,7 +70,22 @@ The role appeared in **Roles and administrators → Microsoft Entra ID roles** w
 
 ## Evidence
 
-Screenshots were reviewed during the guided lab session. Redacted image files have not yet been committed to this repository. See [screenshots/README.md](screenshots/README.md) for the evidence checklist and required redactions.
+Nine screenshots have been selected and packaged in **Lab-17-Application-Registration-Evidence-Redacted.zip**. The client-secret Value cell in screenshot 05 has been covered with an opaque redaction; the secret value is not included in the ZIP.
+
+The archive contains these files:
+
+. `01-demo-app-registration.png`
+. `02-demo-app-overview.png`
+. `03-web-redirect-uri-configured.png`
+. `04-client-secret-creation-settings.png`
+. `05-client-secret-created-REDACTED.png`
+. `06-api-scopes-configured.png`
+. `07-custom-role-permissions-selected.png`
+. `08-custom-role-review.png`
+. `09-custom-role-created.png`
+. `README.md`
+
+See [screenshots/README.md](screenshots/README.md) for the matching evidence index. The ZIP is prepared locally; the PNG files still need to be uploaded to GitHub.
 
 ## Completion checklist
 
@@ -82,4 +97,4 @@ Screenshots were reviewed during the guided lab session. Redacted image files ha
 - [x] Create and enable Employees.Write.All
 - [x] Create My custom app role
 - [x] Verify both custom role permissions
-- [ ] Add redacted screenshots to the repository
+- [x] Prepare the nine-image redacted screenshot evidence ZIP\n- [ ] Upload the redacted PNG files to the repository
