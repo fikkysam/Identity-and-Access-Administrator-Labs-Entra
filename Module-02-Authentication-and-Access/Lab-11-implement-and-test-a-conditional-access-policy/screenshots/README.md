@@ -9,7 +9,7 @@ Six screenshots are retained to document the three exercises and the sign-in-log
 | **03-what-if-inputs.png** | Exercise 2 — Records the user and resource inputs used for the What If evaluation. |
 | **04-what-if-block-policy-applies.png** | Exercise 2 — Shows the What If evaluation result identifying the Sway block policy as applicable. |
 | **05-sign-in-frequency-policy.png** | Exercise 3 — Shows the saved sign-in frequency policy with a **30-day** session control and **Report-only** mode. |
-| **07-sign-in-activity.png** | Supporting verification — Shows the sign-in log's **Conditional access** tab listing the sign-in frequency policy and its result as **Disabled**. |
+| **06-sign-in-activity.png** | Supporting verification — Shows the sign-in log's **Conditional access** tab listing the sign-in frequency policy and its result as **Disabled**. |
 
 ## Interpretation and limitations
 
