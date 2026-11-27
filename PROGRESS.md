@@ -1,6 +1,6 @@
 # Lab Progress Tracker
 
-**Overall status:** 13 / 26 completed  
+**Overall status:** 15 / 26 completed  
 **Status definitions:** Planned → In Progress → Implemented → Validated → Completed
 
 A lab is counted as completed after its implementation or documented adaptation has been tested and its evidence and findings documented in the repository.
@@ -19,9 +19,9 @@ A lab is counted as completed after its implementation or documented adaptation 
 | 10 | Manage Microsoft Entra Smart Lockout Values | Completed (threshold 5, duration 120 seconds, Enforced; temporary lockout observed; sign-in logs reviewed; redacted screenshot evidence published) |
 | 11 | Implement and Test a Conditional Access Policy | Completed (Sway block test, What If evaluation, and 30-day Report-only sign-in frequency; Lami substituted for unavailable Grady Archie) |
 | 12 | Configure User Risk and Sign-in Risk Conditional Access Policies | In Progress (risk policies and Canada location configured; High-risk event validation pending) |
-| 13 | Configure a Multifactor Authentication Registration Policy | Planned |
+| 13 | Configure a Multifactor Authentication Registration Policy | Completed |
 | 14 | Using Azure Key Vault for Managed Identities | Planned |
-| 15 | Defender for Cloud Apps Application Discovery and Enforcing Restrictions | Planned |
+| 15 | Defender for Cloud Apps Application Discovery and Enforcing Restrictions | Completed (reviewed Dropbox cloud-app risk score and tested sanctioning and unsanctioning) |
 | 16 | Configure Conditional Access App Control and Access Policies in Defender for Cloud Apps | Completed (Lami tested with Microsoft Forms; Entra App Control set to Monitor only; Defender access policy created with Test action and email alerts; activity log and matched-policy evidence documented) |
 | 17 | Register an Application | Planned |
 | 18 | Implement Access Management for Apps | Planned |
