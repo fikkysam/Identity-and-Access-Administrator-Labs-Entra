@@ -23,7 +23,7 @@ A lab is counted as completed after its implementation or documented adaptation 
 | 14 | Using Azure Key Vault for Managed Identities | Planned |
 | 15 | Defender for Cloud Apps Application Discovery and Enforcing Restrictions | Completed (reviewed Dropbox cloud-app risk score and tested sanctioning and unsanctioning) |
 | 16 | Configure Conditional Access App Control and Access Policies in Defender for Cloud Apps | Completed (Lami tested with Microsoft Forms; Entra App Control set to Monitor only; Defender access policy created with Test action and email alerts; activity log and matched-policy evidence documented) |
-| 17 | Register an Application | Planned |
+| 17 | Register an Application | Validated (application, API scopes, and custom role verified; redacted screenshot publication pending) |
 | 18 | Implement Access Management for Apps | Planned |
 | 19 | Grant Tenant-Wide Admin Consent to an Application | Planned |
 | 20 | Create and Manage a Catalog of Resources in Microsoft Entra Entitlement Management | Planned |
