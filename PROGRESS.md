@@ -1,6 +1,6 @@
 # Lab Progress Tracker
 
-**Overall status:** 11 / 26 completed  
+**Overall status:** 12 / 26 completed  
 **Status definitions:** Planned → In Progress → Implemented → Validated → Completed
 
 A lab is counted as completed after its implementation or documented adaptation has been tested and its evidence and findings documented in the repository.
@@ -13,7 +13,7 @@ A lab is counted as completed after its implementation or documented adaptation 
 | 04 | Configure External Collaboration Settings | Completed |
 | 05 | Add Guest Users to the Directory | Completed |
 | 06 | Add a Federated Identity Provider | Completed |
-| 07 | Add Hybrid Identity with Microsoft Entra Connect | Planned |
+| 07 | Add Hybrid Identity with Microsoft Entra Connect | Completed (existing hybrid environment implemented; completion confirmed by user; evidence screenshots to be added) |
 | 08 | Enable Multi-Factor Authentication | Completed (adapted implementation; Lami tested with Authenticator number matching) |
 | 09 | Enable Microsoft Entra Self-Service Password Reset | Completed (selected-group scope; Lami reset and post-reset sign-in validated) |
 | 10 | Manage Microsoft Entra Smart Lockout Values | Completed (threshold 5, duration 120 seconds, Enforced; temporary lockout observed; sign-in logs reviewed; redacted screenshot evidence published) |
