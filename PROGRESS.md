@@ -1,6 +1,6 @@
 # Lab Progress Tracker
 
-**Overall status:** 12 / 26 completed  
+**Overall status:** 13 / 26 completed  
 **Status definitions:** Planned → In Progress → Implemented → Validated → Completed
 
 A lab is counted as completed after its implementation or documented adaptation has been tested and its evidence and findings documented in the repository.
@@ -22,7 +22,7 @@ A lab is counted as completed after its implementation or documented adaptation 
 | 13 | Configure a Multifactor Authentication Registration Policy | Planned |
 | 14 | Using Azure Key Vault for Managed Identities | Planned |
 | 15 | Defender for Cloud Apps Application Discovery and Enforcing Restrictions | Planned |
-| 16 | Defender for Cloud Apps Access Policies | Planned |
+| 16 | Configure Conditional Access App Control and Access Policies in Defender for Cloud Apps | Completed (Lami tested with Microsoft Forms; Entra App Control set to Monitor only; Defender access policy created with Test action and email alerts; activity log and matched-policy evidence documented) |
 | 17 | Register an Application | Planned |
 | 18 | Implement Access Management for Apps | Planned |
 | 19 | Grant Tenant-Wide Admin Consent to an Application | Planned |
