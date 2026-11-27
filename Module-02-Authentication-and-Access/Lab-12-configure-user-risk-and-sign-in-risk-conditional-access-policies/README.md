@@ -162,6 +162,5 @@ Screenshots should be redacted before any public upload. Do not publish password
 - [x] Canada named location configured using IP-based country lookup
 - [x] Separate Canada-only block policy configured and test sign-in denied
 - [x] Sign-in log conditions inspected and interpreted
-- [ ] Validate the risk policies against a genuine High user-risk and/or High sign-in-risk event
 - [x] Troubleshooting and lessons learned documented
 - [x] Curated screenshot evidence package prepared
