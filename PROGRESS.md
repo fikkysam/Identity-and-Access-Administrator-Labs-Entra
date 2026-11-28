@@ -41,4 +41,4 @@ A lab is counted as completed after its implementation or documented adaptation 
 - Lab 12 redacted screenshot evidence is published in the lab's `screenshots/` folder; README and evidence checklist updated.
 - Lab 17 SAML screenshots were reviewed in the guided conversation; sanitized PNG files still need to be added to the Lab 17 screenshots folder. The recovery-code screenshot must not be published.
 - Lab 18 enterprise application screenshots were reviewed in the guided conversation and indexed in the Lab 18 screenshot README; PNG binaries still need to be uploaded to GitHub.
-- Lab 19 admin-consent exercise documented; both consent routes completed as confirmed by the user.\n
+- Lab 19 admin-consent exercise completed; all three screenshot PNGs are now published in the Lab 19 `screenshots/` folder and indexed in its README.\n
