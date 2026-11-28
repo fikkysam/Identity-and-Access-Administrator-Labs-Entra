@@ -2,11 +2,12 @@
 
 **Labs:** 15–19
 
-This module covers Defender for Cloud Apps discovery and access policies, application registration, application access management, and tenant-wide administrator consent.
+This module covers Defender for Cloud Apps discovery and access policies, enterprise application access, application registration, and tenant-wide administrator consent.
 
-See the individual lab folders for Microsoft instructions and implementation records.
+## Lab 17 – Configure an Enterprise App
+
+[Implementation record](./Lab-17-configure-an-enterprise-app/README.md) documents the GitHub Enterprise Cloud – Enterprise Account gallery application, Debbie O's assignment, Entra SAML configuration, and successful SAML authentication test.
 
 ## Lab 18 – Register an Application
 
 [Implementation record](./Lab-18-register-an-application/README.md) documents the **Demo app** registration, Web redirect URI, 90-day client secret, delegated API scopes, tenant identifier-URI policy adaptation, and custom credential-management role. The nine-item redacted screenshot evidence set is indexed in the lab's `screenshots/` folder.
-
