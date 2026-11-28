@@ -37,10 +37,10 @@ Grant tenant-wide admin consent to an application registered directly in the Mic
 | API permissions reviewed | Completed |
 | Admin consent flow completed from App registrations | Completed (user-confirmed) |
 | Demo app opened from Enterprise apps | Completed (user-confirmed) |
-| Admin consent flow completed from Enterprise apps | Completed (user-confirmed) |
+| Admin consent flow completed from Enterprise apps | Verified in the Permissions page (`User.Read`, Admin consent, granted by an administrator) |
 | Permissions requested dialog reviewed and accepted | Completed (user-confirmed) |
 
-The screenshots shared during the session show the Demo app API permissions page, the admin-consent confirmation dialog, and the Microsoft permissions-request screen for the delegated **User.Read** permission. The user confirmed that both consent tasks were completed.
+The screenshots shared during the session show the Demo app API permissions page and admin-consent confirmation dialog, the Microsoft permissions-request screen for delegated **User.Read**, and the final Enterprise applications Permissions page showing **Admin consent** granted by an administrator. The user confirmed that both consent tasks were completed.
 
 ## Security considerations
 
