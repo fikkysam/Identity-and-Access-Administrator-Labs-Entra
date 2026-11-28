@@ -11,3 +11,4 @@ This module covers Defender for Cloud Apps discovery and access policies, enterp
 ## Lab 18 – Register an Application
 
 [Implementation record](./Lab-18-register-an-application/README.md) documents the **Demo app** registration, Web redirect URI, 90-day client secret, delegated API scopes, tenant identifier-URI policy adaptation, and custom credential-management role. The nine-item redacted screenshot evidence set is indexed in the lab's `screenshots/` folder.
+\n## Lab 19 – Grant Tenant-Wide Admin Consent to an Application\n\n[Implementation record](./Lab-19-grant-tenant-wide-admin-consent/README.md) documents the two admin-consent paths completed for Demo app: App registrations and Enterprise apps.\n
