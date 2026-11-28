@@ -6,6 +6,7 @@ This module covers Defender for Cloud Apps discovery and access policies, applic
 
 See the individual lab folders for Microsoft instructions and implementation records.
 
-## Lab 17 – Register an Application
+## Lab 18 – Register an Application
 
-[Implementation record](./Lab-17-register-an-application/README.md) documents the Demo app registration, web redirect URI, client secret, delegated API scopes, tenant identifier-URI policy exception, and the custom credential-management role. **Status: Validated; redacted screenshot publication is pending.**
+[Implementation record](./Lab-18-register-an-application/README.md) documents the **Demo app** registration, Web redirect URI, 90-day client secret, delegated API scopes, tenant identifier-URI policy adaptation, and custom credential-management role. The nine-item redacted screenshot evidence set is indexed in the lab's `screenshots/` folder.
+
