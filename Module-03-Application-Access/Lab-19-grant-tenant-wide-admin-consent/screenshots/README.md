@@ -10,7 +10,7 @@ This folder contains the screenshot evidence index for **Grant Tenant-Wide Admin
 
 ## Evidence notes
 
-- The screenshots were supplied during the Lab 19 walkthrough and packaged in the Lab 19 screenshot ZIP.
+- All three screenshot PNG files are now published in this GitHub folder and were also packaged in the Lab 19 screenshot ZIP.
 - They document the App registrations consent confirmation flow, the Microsoft permissions-request screen, and the final Enterprise apps permission record.
 - The user confirmed that both Task 1 and Task 2 consent flows were completed.
 - Screenshot 03 directly verifies that tenant-wide admin consent is recorded for `User.Read` in Enterprise apps. The user also confirmed completion of both consent tasks.
