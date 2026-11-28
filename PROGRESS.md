@@ -1,6 +1,6 @@
 # Lab Progress Tracker
 
-**Overall status:** 17 / 26 completed  
+**Overall status:** 18 / 26 completed  
 **Status definitions:** Planned → In Progress → Implemented → Validated → Completed
 
 A lab is counted as completed after its implementation or documented adaptation has been tested and its outcome validated. Evidence publication status is recorded separately where applicable.
@@ -25,7 +25,7 @@ A lab is counted as completed after its implementation or documented adaptation 
 | 16 | Configure Conditional Access App Control and Access Policies in Defender for Cloud Apps | Completed (Lami tested with Microsoft Forms; Entra App Control set to Monitor only; Defender access policy created with Test action and email alerts; activity log and matched-policy evidence documented) |
 | 17 | Configure an Enterprise App | Completed (GitHub Enterprise Cloud gallery application created; Debbie O assigned; Entra-to-GitHub SAML configuration tested successfully; SAML enabled in GitHub Enterprise; screenshot binaries still require repository publication) |
 | 18 | Configure an Enterprise App | Completed (GitHub Enterprise Cloud – Enterprise Account created in Entra; Debbie O and administrator account assigned; both assignments verified in Users and groups) |
-| 19 | Grant Tenant-Wide Admin Consent to an Application | Planned |
+| 19 | Grant Tenant-Wide Admin Consent to an Application | Completed (admin consent completed through App registrations and Enterprise apps for Demo app; confirmed by user) |
 | 20 | Create and Manage a Catalog of Resources in Microsoft Entra Entitlement Management | Planned |
 | 21 | Add Terms of Use and Acceptance Reporting | Planned |
 | 22 | Manage the Lifecycle of External Users in Microsoft Entra Identity Governance Settings | Planned |
@@ -41,3 +41,4 @@ A lab is counted as completed after its implementation or documented adaptation 
 - Lab 12 redacted screenshot evidence is published in the lab's `screenshots/` folder; README and evidence checklist updated.
 - Lab 17 SAML screenshots were reviewed in the guided conversation; sanitized PNG files still need to be added to the Lab 17 screenshots folder. The recovery-code screenshot must not be published.
 - Lab 18 enterprise application screenshots were reviewed in the guided conversation and indexed in the Lab 18 screenshot README; PNG binaries still need to be uploaded to GitHub.
+- Lab 19 admin-consent exercise documented; both consent routes completed as confirmed by the user.\n
